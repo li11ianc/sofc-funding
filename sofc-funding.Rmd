@@ -7,14 +7,29 @@ output: html_document
 
 ```{r}
 library(ggplot2)
+library(tidyverse)
 ```
 
 ```{r}
 prog <- read.csv("data/programming.csv")
+prog <- prog[2:6] 
+```
+
+```{r}
+prog %>%
+  filter(org %in% c("BDU", "Blue Devils United")) %>%
+  arrange(desc(deny))
+```
+
+```{r}
+ggplot(prog, aes(x = date, y = grant)) +
+  geom_point(alpha = 0.3)
 ```
 
 ```{r}
 prog %>%
   group_by(org) %>%
-  arrange(desc(deny))
+  summarize(deny = sum(deny), request = sum(req))
 ```
+
+
