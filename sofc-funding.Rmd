@@ -16,6 +16,11 @@ prog <- prog[2:6]
 ```
 
 ```{r}
+prog <- prog %>%
+  mutate()
+```
+
+```{r}
 prog %>%
   filter(org %in% c("BDU", "Blue Devils United")) %>%
   arrange(desc(deny))
