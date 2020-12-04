@@ -8,6 +8,9 @@ output: html_document
 ```{r}
 library(ggplot2)
 library(tidyverse)
+library(lubridate)
+library(broom)
+library(knitr)
 ```
 
 ```{r}
@@ -16,25 +19,191 @@ prog <- prog[2:6]
 ```
 
 ```{r}
-prog <- prog %>%
-  mutate()
+prog_cat <- prog %>%
+  mutate(bipoc = case_when(
+    org %in% c("Asian American Alliance",
+              "Alpha Kappa Alpha Sorority, Inc.",
+              "Alpha Phi Alpha Fraternity, Inc.",
+              "Duke Amandla Chorus",
+              "Asian Students Association",
+              "Black Student Alliance",
+              "Duke Chinese Theater",
+              "Duke Chinese Student Association", # I added
+              "Singapore Students Association", # I added
+              "Duke Africa", # I added
+              "Black Men's Union", # I added
+              "Delta Sigma Theta Sorority, Inc.",
+              "Duke Dhamaka",
+              "Hindu Students Association",
+              "Kappa Alpha Psi Fraternity, Inc.",
+              "Lambda Theta Alpha Latin Sorority, Inc.",
+              "La Unidad Latina Lambda Upsilon Lambda Fraternity, Inc.",
+              "Mi Gente",
+              "Nakisai African Dance Ensemble",
+              "National Society of Black Engineers",
+              "Duke Rhydhun",
+              "Taiwanese American Student Association",
+              "The Bridge",
+              "United in Praise",
+              "Zeta Phi Beta Sorority, Inc.",
+              "Duke Nepali Student Association",
+              "Duke Ethiopian/Eritrean Student Transactional Association",
+              "Desarrolla",
+              "Gente Aprendiendo para Nuevas Oportunidades",
+              "Project H.E.A.L. (Health Education and Awareness in Latin America)",
+              "Pakistani Students Association",
+              "Duke CommuniTEA",
+              "Duke Association for the Middle East",
+              "International Association",
+              "Duke Muslim Students Association",
+              "Duke Sikh Society",
+              "Duke Students for Justice in Palestine") ~ "Y",
+    TRUE ~ "N"))
 ```
 
 ```{r}
-prog %>%
-  filter(org %in% c("BDU", "Blue Devils United")) %>%
-  arrange(desc(deny))
+prog_cat <- prog_cat %>%
+  mutate(community = case_when(
+    org %in% c("Asian American Alliance",
+              "Asian Students Association",
+              "Duke Chinese Theater",
+              "Duke Dhamaka",
+              "Hindu Students Association",
+              "Duke Rhydhun",
+              "Taiwanese American Student Association",
+              "Duke CommuniTEA",
+              "Duke Sikh Society",
+              "Duke Nepali Student Association",
+              "Pakistani Students Association",
+              "Duke Chinese Student Association",
+              "Singapore Students Association") ~ "Asian",
+    org %in% c("Alpha Kappa Alpha Sorority, Inc.",
+              "Alpha Phi Alpha Fraternity, Inc.",
+              "Duke Amandla Chorus",
+              "Black Student Alliance",
+              "Delta Sigma Theta Sorority, Inc.",
+              "Kappa Alpha Psi Fraternity, Inc.",
+              "Nakisai African Dance Ensemble",
+              "National Society of Black Engineers",
+              "United in Praise",
+              "Zeta Phi Beta Sorority Inc.",
+              "Duke Ethiopian/Eritrean Student Transactional Association",
+              "Duke Africa",
+              "Black Men's Union") ~ "Black",
+    org %in% c("Lambda Theta Alpha Latin Sorority, Inc.", 
+              "La Unidad Latina Lambda Upsilon Lambda Fraternity, Inc.",
+              "Mi Gente",
+              "Gente Aprendiendo para Nuevas Oportunidades",
+              "Project H.E.A.L. (Health Education and Awareness in Latin America)",
+              "Desarrolla") ~ "Latinx",
+    org %in% c("Duke Association for the Middle East",
+              "Duke Muslim Students Association",
+              "Duke Students for Justice in Palestine") ~ "Middle-Eastern",
+    TRUE ~ "Nonspecific"
+  ))
 ```
 
 ```{r}
-ggplot(prog, aes(x = date, y = grant)) +
+prog_cat <- prog_cat %>%
+  filter(!is.na(date)) %>%
+  mutate(prop_grant = grant / req,
+         year = year(date),
+         month = month(date),
+         sem = case_when(
+           month %in% c(1, 2, 3, 4, 5, 6) ~ "Spring",
+           month %in% c(7, 8, 9, 10, 11, 12) ~ "Fall"),
+         schoolyr = case_when(
+           year == 2016 & sem == "Fall" ~ "2016-2017",
+           year == 2017 & sem == "Spring" ~ "2016-2017",
+           year == 2017 & sem == "Fall" ~ "2017-2018",
+           year == 2018 & sem == "Spring" ~ "2017-2018",
+           year == 2018 & sem == "Fall" ~ "2018-2019",
+           year == 2019 & sem == "Spring" ~ "2018-2019",
+           year == 2019 & sem == "Fall" ~ "2019-2020",
+           year == 2020 & sem == "Spring" ~ "2019-2020"
+         ))
+```
+
+```{r}
+ggplot(prog_cat, aes(x = community, y = prop_grant)) +
+  geom_boxplot()
+ggplot(prog_cat, aes(x = bipoc, y = prop_grant)) +
+  geom_boxplot()
+
+ggplot(prog_cat, aes(x = community, y = prop_grant)) +
+  geom_boxplot() +
+  facet_wrap(. ~ schoolyr)
+
+prog_cat %>%
+  filter(schoolyr == "2018-2019") %>%
+  ggplot(aes(x = community, y = prop_grant)) +
+  labs(title = "2018-2019") +
+  geom_boxplot()
+
+prog_cat %>%
+  filter(schoolyr == "2019-2020") %>%
+  ggplot(aes(x = community, y = prop_grant)) +
+  labs(title = "2019-2020") +
+  geom_boxplot()
+
+ggplot(prog_cat, aes(x = community, y = prop_grant)) +
   geom_point(alpha = 0.3)
+
+ggplot(prog_cat, aes(x = prop_grant)) +
+  geom_histogram(aes(color = community, fill = community),
+                 position = "identity", alpha = 0.2) +
+  scale_color_manual(values = c("red", "blue", "green", "purple", "white")) +
+  scale_fill_manual(values = c("red", "blue","green", "purple", "white"))
+
+ggplot(prog_cat, aes(x = prop_grant)) +
+  geom_histogram() +
+  facet_wrap(. ~ community)
+```
+
+
+```{r}
+ggplot(prog_cat, aes(x = community, y = deny)) +
+  geom_boxplot()
+
+ggplot(prog_cat, aes(x = community, y = deny)) +
+  geom_point(alpha = 0.3)
+
+ggplot(prog_cat, aes(x = deny)) +
+  geom_histogram(aes(color = community, fill = community),
+                 position = "identity", alpha = 0.2) +
+  scale_color_manual(values = c("red", "blue", "green", "purple", "white")) +
+  scale_fill_manual(values = c("red", "blue","green", "purple", "white"))
+
+ggplot(prog_cat, aes(x = deny)) +
+  geom_histogram() +
+  facet_wrap(. ~ community)
 ```
 
 ```{r}
-prog %>%
-  group_by(org) %>%
-  summarize(deny = sum(deny), request = sum(req))
+aggregate(prog_cat$prop_grant, list(prog_cat$org), mean) %>%
+  arrange(desc(x))
+
+aggregate(prog_cat$prop_grant, list(prog_cat$community), mean) %>%
+  arrange(desc(x))
+
+aggregate(prog_cat$grant, list(prog_cat$org), sum) %>%
+  arrange(desc(x))
+
+aggregate(prog_cat$grant, list(prog_cat$community), sum) %>%
+  arrange(desc(x))
+
+aggregate(prog_cat$deny, list(prog_cat$community), sum) %>%
+  arrange(desc(x))
+```
+
+```{r}
+model_bipoc <- lm(prop_grant ~ bipoc, data = prog_cat)
+kable(model_bipoc %>% tidy(conf.int=TRUE),format="html",digits=3)
+kable(tidy(aov(model_bipoc)),format="html",digits=3)
+
+
+model_comm <- lm(prop_grant ~ community,data=prog_cat)
+kable(tidy(aov(model_comm)),format="html",digits=3)
 ```
 
 
