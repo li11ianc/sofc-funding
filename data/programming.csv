@@ -123,101 +123,157 @@
 "122",2017-09-20,"Duke Splash",2550,2000,550
 "123",2017-09-20,"Interfraternity Council",7500,6500,1000
 "124",2017-09-27,"Deja Blue",1751.14,1691.14,60
-"125",2017-10-21,"Duke International Relations Association",2360.51,1905,455.51
-"126",2017-10-21,"Hindu Students Association",1650,1650,0
-"127",2017-10-21,"Lambda Theta Alpha Latin Sorority, Inc.",3777,2725,1052
-"128",2017-10-21,"International Association",7155,4435,2720
-"129",2017-10-21,"Inside Joke",1557.39,1557.39,0
-"130",2018-09-05,"Interfraternity Council",8500,8500,0
-"131",2018-09-05,"Muslim Students' Association ",2295,2295,0
-"132",2018-09-05,"Peer Advocacy for Sexual Health (PASH)",2500,2300,200
-"133",2018-09-05,"Singapore Students Association",11685,5270,6415
-"134",2018-09-05,"Zeta Tau Alpha",7500,7500,0
-"135",2018-09-19,"Duke Chinese Student Association",10261,5561,4700
-"136",2018-09-19,"Duke Undergraduate Machine Learning",4425,2500,1925
-"137",2018-09-26,"J Street U",3050,2700,350
-"138",2018-10-03,"Zeta Phi Beta Sorority, Inc.",1522.61,1522.61,0
-"139",2018-10-03,"TEDxDuke",3985,3695,290
-"140",2018-10-03,"Phi Beta Sigma Fraternity, Inc.",2030,1730,300
-"141",2018-10-03,"Duke Students for Justice in Palestine",1650,1575,75
-"142",2018-10-03,"HackDuke",8900,6750,2150
-"143",2018-10-17,"Inside Joke",2057.06,2057.06,0
-"144",2018-10-17,"Blue Devils United ",7450,7450,0
-"145",2018-10-17,"Duke Africa ",4326.67,3872.33,454.34
-"146",2018-10-17,"Muslim Students' Association ",4600,2600,2000
-"147",2018-10-24,"Alpha Kappa Delta Phi",14000,12000,2000
-"148",2018-10-24,"FEMMES",2500,800,1700
-"149",2018-10-31,"Duke Club Figure Skating",3765,3765,0
-"150",2018-10-31,"Duke University Science Olympiad",6359,1590,4769
-"151",2018-10-31,"Hindu Students Association ",3800,3800,0
-"152",2018-10-31,"International Assocation ",7160,5184,1976
-"153",2018-11-07,"Duke Chinese Theater",10798,6173,4625
-"154",2018-11-14,"Alpha Kappa Delta Phi",14000,2000,12000
-"155",2018-11-14,"Asian Students Association",3400,2800,600
-"156",2018-11-14,"Duke Catholic Center ",1760,1710,50
-"157",2018-11-14,"Duke Conservation Tech",12437.5,8287.5,4150
-"158",2018-11-28,"Blue Devils United ",7689.9,7689,0.899999999999636
-"159",2018-11-28,"Coalition for Preserving Memory",1850,1850,0
-"160",2019-01-16,"Asian Students Association",6800,5175,1625
-"161",2019-01-16,"Delta Sigma Theta Sorority, Inc.",16089.2,16089.2,0
-"162",2019-01-16,"duARTS",4282,2332,1950
-"163",2019-01-16,"Duke Conservation Tech",10007.5,10007.5,0
-"164",2019-01-16,"Duke American Sign Language",2000,2000,0
-"165",2019-01-16,"TEDxDuke",12685,9625,3060
-"166",2019-01-23,"Singapore Students Association",8995,4950,4045
-"167",2019-01-23,"Sabrosura",2850,2850,0
-"168",2019-01-23,"Neurocare",7557.78,7133.93,423.849999999999
-"169",2019-01-23,"J Street U",10900,3275,7625
-"170",2019-01-23,"Duke Catholic Center ",1740,1710,30
-"171",2019-01-30,"Inside Joke",2193.63,2193.63,0
-"172",2019-01-30,"Duke Amandla Chorus ",4278,2103,2175
-"173",2019-01-30,"All of the Above ",2734.5,2534.5,200
-"174",2019-02-06,"Muslim Students' Association ",6000,6000,0
-"175",2019-02-06,"Muslim Students' Association ",1650,1650,0
-"176",2019-02-06,"Duke Africa ",8450,4950,3500
-"177",2019-02-13,"Pi Kappa Alpha ",2651.74,1851.74,800
-"178",2019-02-13,"La Unidad Latina Lambda Upsilon Lambda Fraternity, Inc.",2800,2265,535
-"179",2019-02-13,"Duke Undergraduate Machine Learning",3000,3700,-700
-"180",2019-02-13,"Devils en Pointe",4397.5,4397.5,0
-"181",2019-02-13,"Duke Catholic Center ",1740,1710,30
-"182",2019-02-13,"Duke Catholic Center ",6430,6430,0
-"183",2019-02-13,"Coalition for Preserving Memory",1910.45,1735.45,175
-"184",2019-02-13,"Blue Devils United ",5450,5400,50
-"185",2019-02-27,"International Association ",13350,4800,8550
-"186",2019-02-27,"Duke Splash ",2604,2359,245
-"187",2019-02-27,"Duke East Asia Nexus",15985,6040,9945
-"188",2019-02-27,"Duke Chinese Dance ",4266.5,4266.5,0
-"189",2019-02-27,"Community Empowerment Fund",3922,2000,1922
-"190",2019-03-06,"Program II Majors' Union",5400,0,5400
-"191",2019-03-06,"Program II Majors' Union",5400,5200,200
-"192",2019-03-06,"Duke Diya",2900,2900,0
-"193",2019-03-06,"Blue Devils United ",8800,3300,5500
-"194",2019-03-06,"Asian Students Association",3550,3300,250
-"195",2019-03-20,"Asian American Alliance ",5000,5000,0
-"196",2019-03-20,"Blue Devils United ",9300,9300,0
-"197",2019-03-20,"Duke Chinese Theater",10797.5,6172.5,4625
-"198",2019-03-20,"On Tap",2220.81,2020.81,200
-"199",2019-03-27,"duARTS",1000,0,1000
-"200",2019-03-27,"Duke Student Government",3350,0,3350
-"201",2019-03-27,"Momentum Dance Company ",3037.63,2837.63,200
-"202",2019-03-27,"Street Medicine ",4366.63,4316.63,50
-"203",2019-03-27,"Native American Student Organization",2900,1875,1025
-"204",2019-04-03,"HackDuke",2260,1630,630
-"205",2019-04-03,"DUSDAC",8201,1801,6400
-"206",2019-04-10,"Muslim Students' Association ",4000,4000,0
-"207",2019-04-10,"Duke University Student Dining Advisory Committee",8201,2601,5600
-"208",2019-04-17,"Duke University Improv",1597.06,1597.06,0
-"209",2018-10-03,"Zeta Phi Beta Sorority, Inc ",1522.61,1522.61,0
-"210",2018-10-03,"TEDXDuke",3985,3695,290
-"211",2018-10-17,"Duke Muslim Students Association",4600,2600,2000
-"212",2018-10-24,"	Alpha Kappa Delta Phi",14000,12000,2000
-"213",2018-11-14,"	Alpha Kappa Delta Phi",14000,2000,12000
-"214",2019-01-16,"TedXDuke",12685,9625,3060
-"215",2019-01-23,"JSU",10900,3275,7625
-"216",2019-02-06,"Duke Muslim Students Association",6000,6000,0
-"217",2019-02-13,"Blue Devils United",5450,5400,50
-"218",2019-02-27,"International Association",13350,4800,8550
-"219",2019-03-06,"Blue Devils United",8800,3300,5500
-"220",2019-04-10,"Duke Muslim Students Association",4000,4000,0
-"221",2019-04-10,"DUSDAC",8201,2601,5600
-"222",NA,"",NA,NA,NA
+"125",2017-10-04,"Phi Beta Sigma Fraternity, Inc.",5115,3515,1600
+"126",2017-10-18,"DIRA",2360.51,1905,455.51
+"127",2017-10-18,"Hindu Students Association",1650,1650,0
+"128",2017-10-18,"Lambda theta alpha",3777,2725,1052
+"129",2017-10-18,"International association",7155,4435,2720
+"130",2017-10-18,"Inside Joke",1557.39,1557.39,0
+"131",2017-10-25,"Blue Devils United",7000,7000,0
+"132",2017-10-25,"Duke Catholic Center",1750,1665,85
+"133",2017-10-25,"Duke Africa",2600,2140,460
+"134",2017-11-08,"Asian Students Association",3400,3200,200
+"135",2017-11-08,"Duke Catholic Center",1750,1665,85
+"136",2017-11-08,"Jewish Student Union",3930,1895,2035
+"137",2017-11-08,"Singapore Student Association",2300,2225,75
+"138",2017-11-15,"Duke Catholic Center",1760,1680,80
+"139",2017-11-15,"Duke Chinese Theater",5312.15,5121.15,191
+"140",2017-11-29,"Blue Devils United",3000.85,2650.85,350
+"141",2017-12-06,"Blue Devils United",5075,5075,0
+"142",2017-12-06,"Duke Catholic Center",1740,1660,80
+"143",2017-12-06,"Duke Conservation Tech",14595,7610.5,6984.5
+"144",2018-01-31,"Asian Students Association",6600,5750,850
+"145",2018-01-31,"Business Oriented Women",5945.58,3695.58,2250
+"146",2018-01-31,"Duke Swing Dance Club",4191.14,2900,1291.14
+"147",2018-01-31,"Duke Africa",2700,1970,730
+"148",2018-02-07,"Duke Catholic Center",4030,4030,0
+"149",2018-02-07,"Duke Splash",3850,2925,925
+"150",2018-02-14,"Blue Devils United",10800,8165,2635
+"151",2018-02-14,"Zeta Phi Beta Sorority, Inc.",1970,1860,110
+"152",2018-02-14,"Pi Kappa Alpha",2917.78,2872.78,45
+"153",2018-02-14,"Singapore Student Association",6820,5220,1600
+"154",2018-02-14,"TEDxDuke",12685,6325,6360
+"155",2018-02-14,"Chabad Student Group",4850,3850,1000
+"156",2018-02-14,"Duke Disability Alliance",8521,6345,2176
+"157",2018-02-21,"Coalition for Preserving Memory",2290.5,1655.5,635
+"158",2018-02-21,"Duke East Asian Nexus",8030.65,4495.14,3535.51
+"159",2018-02-21,"National Alliance on Mental Illness",1637.38,1637.38,0
+"160",2018-02-28,"Duke Catholic Center",1740,1710,30
+"161",2018-02-28,"Duke Disability Alliance",2025,2025,0
+"162",2018-03-07,"Arts Annex Advisory Board",21050,4625,16425
+"163",2018-03-07,"Blue Devils United",7420,5854,1566
+"164",2018-03-07,"Duke Catholic Center",2325.61,2295.61,30
+"165",2018-03-07,"Duke Chinese Theater",4937,3942,995
+"166",2018-03-07,"Devils en Pointe",2816.83,2741.83,75
+"167",2018-03-07,"Devilish Keys",1500,1500,0
+"168",2018-03-07,"duARTS",3496.51,3396.51,100
+"169",2018-03-07,"Duke University Improv",1920,1920,0
+"170",2018-03-07,"Duke Chinese Dance",3772.86,2622.86,1150
+"171",2018-03-07,"International association",2224.4,2219.4,5
+"172",2018-03-07,"National Panhellenic Council (NPHC)",2590,2590,0
+"173",2018-03-22,"Asian Students Association",2500,2400,100
+"174",2018-03-22,"Duke Statistical Science Majors Union",11500,8975,2525
+"175",2018-03-22,"Momentum Dance Company",3224.38,2774.38,450
+"176",2018-03-28,"Amnesty International",1550,1550,0
+"177",2018-03-28,"Blue Devils United",6920,6845,75
+"178",2018-03-28,"Duke Catholic Center",4390,4390,0
+"179",2018-03-28,"Duke Catholic Center",1720,1710,10
+"180",2018-03-28,"Street Medicine",2104,1754,350
+"181",2018-04-04,"International association",10490,3100,7390
+"182",2018-04-04,"National Alliance on Mental Illness",3500,2815,685
+"183",2018-04-11,"Blue Devils United",11757.32,4130.83,7626.49
+"184",2018-04-11,"Duke Asian American Theater",1606.8,1486.8,120
+"185",2018-04-11,"Duke Swing Dance Club",3500,3500,0
+"186",2018-04-11,"Durham Cares",4140,1700,2440
+"187",2018-09-05,"Interfraternity Council",8500,8500,0
+"188",2018-09-05,"Muslim Students' Association ",2295,2295,0
+"189",2018-09-05,"Peer Advocacy for Sexual Health (PASH)",2500,2300,200
+"190",2018-09-05,"Singapore Students Association",11685,5270,6415
+"191",2018-09-05,"Zeta Tau Alpha",7500,7500,0
+"192",2018-09-19,"Duke Chinese Student Association",10261,5561,4700
+"193",2018-09-19,"Duke Undergraduate Machine Learning",4425,2500,1925
+"194",2018-09-26,"J Street U",3050,2700,350
+"195",2018-10-03,"Zeta Phi Beta Sorority, Inc.",1522.61,1522.61,0
+"196",2018-10-03,"TEDxDuke",3985,3695,290
+"197",2018-10-03,"Phi Beta Sigma Fraternity, Inc.",2030,1730,300
+"198",2018-10-03,"Duke Students for Justice in Palestine",1650,1575,75
+"199",2018-10-03,"HackDuke",8900,6750,2150
+"200",2018-10-17,"Inside Joke",2057.06,2057.06,0
+"201",2018-10-17,"Blue Devils United ",7450,7450,0
+"202",2018-10-17,"Duke Africa ",4326.67,3872.33,454.34
+"203",2018-10-17,"Muslim Students' Association ",4600,2600,2000
+"204",2018-10-24,"Alpha Kappa Delta Phi",14000,12000,2000
+"205",2018-10-24,"FEMMES",2500,800,1700
+"206",2018-10-31,"Duke Club Figure Skating",3765,3765,0
+"207",2018-10-31,"Duke University Science Olympiad",6359,1590,4769
+"208",2018-10-31,"Hindu Students Association ",3800,3800,0
+"209",2018-10-31,"International Assocation ",7160,5184,1976
+"210",2018-11-07,"Duke Chinese Theater",10798,6173,4625
+"211",2018-11-14,"Alpha Kappa Delta Phi",14000,2000,12000
+"212",2018-11-14,"Asian Students Association",3400,2800,600
+"213",2018-11-14,"Duke Catholic Center ",1760,1710,50
+"214",2018-11-14,"Duke Conservation Tech",12437.5,8287.5,4150
+"215",2018-11-28,"Blue Devils United ",7689.9,7689,0.899999999999636
+"216",2018-11-28,"Coalition for Preserving Memory",1850,1850,0
+"217",2019-01-16,"Asian Students Association",6800,5175,1625
+"218",2019-01-16,"Delta Sigma Theta Sorority, Inc.",16089.2,16089.2,0
+"219",2019-01-16,"duARTS",4282,2332,1950
+"220",2019-01-16,"Duke Conservation Tech",10007.5,10007.5,0
+"221",2019-01-16,"Duke American Sign Language",2000,2000,0
+"222",2019-01-16,"TEDxDuke",12685,9625,3060
+"223",2019-01-23,"Singapore Students Association",8995,4950,4045
+"224",2019-01-23,"Sabrosura",2850,2850,0
+"225",2019-01-23,"Neurocare",7557.78,7133.93,423.849999999999
+"226",2019-01-23,"J Street U",10900,3275,7625
+"227",2019-01-23,"Duke Catholic Center ",1740,1710,30
+"228",2019-01-30,"Inside Joke",2193.63,2193.63,0
+"229",2019-01-30,"Duke Amandla Chorus ",4278,2103,2175
+"230",2019-01-30,"All of the Above ",2734.5,2534.5,200
+"231",2019-02-06,"Muslim Students' Association ",6000,6000,0
+"232",2019-02-06,"Muslim Students' Association ",1650,1650,0
+"233",2019-02-06,"Duke Africa ",8450,4950,3500
+"234",2019-02-13,"Pi Kappa Alpha ",2651.74,1851.74,800
+"235",2019-02-13,"La Unidad Latina Lambda Upsilon Lambda Fraternity, Inc.",2800,2265,535
+"236",2019-02-13,"Duke Undergraduate Machine Learning",3000,3700,-700
+"237",2019-02-13,"Devils en Pointe",4397.5,4397.5,0
+"238",2019-02-13,"Duke Catholic Center ",1740,1710,30
+"239",2019-02-13,"Duke Catholic Center ",6430,6430,0
+"240",2019-02-13,"Coalition for Preserving Memory",1910.45,1735.45,175
+"241",2019-02-13,"Blue Devils United ",5450,5400,50
+"242",2019-02-27,"International Association ",13350,4800,8550
+"243",2019-02-27,"Duke Splash ",2604,2359,245
+"244",2019-02-27,"Duke East Asia Nexus",15985,6040,9945
+"245",2019-02-27,"Duke Chinese Dance ",4266.5,4266.5,0
+"246",2019-02-27,"Community Empowerment Fund",3922,2000,1922
+"247",2019-03-06,"Program II Majors' Union",5400,0,5400
+"248",2019-03-06,"Program II Majors' Union",5400,5200,200
+"249",2019-03-06,"Duke Diya",2900,2900,0
+"250",2019-03-06,"Blue Devils United ",8800,3300,5500
+"251",2019-03-06,"Asian Students Association",3550,3300,250
+"252",2019-03-20,"Asian American Alliance ",5000,5000,0
+"253",2019-03-20,"Blue Devils United ",9300,9300,0
+"254",2019-03-20,"Duke Chinese Theater",10797.5,6172.5,4625
+"255",2019-03-20,"On Tap",2220.81,2020.81,200
+"256",2019-03-27,"duARTS",1000,0,1000
+"257",2019-03-27,"Duke Student Government",3350,0,3350
+"258",2019-03-27,"Momentum Dance Company ",3037.63,2837.63,200
+"259",2019-03-27,"Street Medicine ",4366.63,4316.63,50
+"260",2019-03-27,"Native American Student Organization",2900,1875,1025
+"261",2019-04-03,"HackDuke",2260,1630,630
+"262",2019-04-03,"Duke University Student Dining Advisory Committee",8201,1801,6400
+"263",2019-04-10,"Muslim Students' Association ",4000,4000,0
+"264",2019-04-10,"Duke University Student Dining Advisory Committee",8201,2601,5600
+"265",2019-04-17,"Duke University Improv",1597.06,1597.06,0
+"266",2018-10-03,"Zeta Phi Beta Sorority, Inc ",1522.61,1522.61,0
+"267",2018-10-03,"TEDXDuke",3985,3695,290
+"268",2018-10-17,"Duke Muslim Students Association",4600,2600,2000
+"269",2018-10-24,"	Alpha Kappa Delta Phi",14000,12000,2000
+"270",2018-11-14,"	Alpha Kappa Delta Phi",14000,2000,12000
+"271",2019-01-16,"TedXDuke",12685,9625,3060
+"272",2019-01-23,"JSU",10900,3275,7625
+"273",2019-02-06,"Duke Muslim Students Association",6000,6000,0
+"274",2019-02-13,"Blue Devils United",5450,5400,50
+"275",2019-02-27,"International Association",13350,4800,8550
+"276",2019-03-06,"Blue Devils United",8800,3300,5500
+"277",2019-04-10,"Duke Muslim Students Association",4000,4000,0
+"278",NA,"",NA,NA,NA
