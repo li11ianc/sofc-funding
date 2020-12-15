@@ -8,7 +8,7 @@ sheet1_fix <- sheet1[1:4] %>%
   filter(!is.na(totalRequested)) %>%
   mutate(dateOfSenateMeeting = mdy(dateOfSenateMeeting))
 
-sheet2 <- read.csv("data/Nadia- SOFC programming2.csv")
+sheet2 <- read.csv("data/Nadia- SOFC programming - Sheet1.csv")
 
 sheet2_fix <- sheet2[1:4] %>%
   mutate(dateOfSenateMeeting = mdy(dateOfSenateMeeting)) %>%
@@ -95,7 +95,7 @@ programming_fix <- programming %>%
       ~ "Lambda Theta Alpha Latin Sorority, Inc.",
     org == "Kappa Alpha Psi" 
       ~ "Kappa Alpha Psi Fraternity, Inc.",
-    org == "DUSDAC" ~ "Duke University Student Dining Advisory Committee"
+    org == "DUSDAC" ~ "Duke University Student Dining Advisory Committee",
     TRUE ~ org
   ))
 
@@ -103,3 +103,4 @@ programming_fix <- programming_fix %>%
   distinct()
 
 write.csv(programming_fix, "data/programming.csv")
+
