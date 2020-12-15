@@ -125,6 +125,12 @@ prog_cat <- prog_cat %>%
               "Duke Muslim Students Association",
               "Duke Students for Justice in Palestine") ~ "Middle-Eastern",
     org %in% c("Native American Student Organization") ~ "Indigenous",
+    org %in% c("Students of the Caribbean Association",
+              "Multicultural Greek Council", #preetha added
+              "Minority Association of Premedical Students", #preetha added
+              "The Bridge",
+              "United in Praise",
+              "International Association") ~ "Other BIPOC group",
     TRUE ~ "Nonspecific"
   ))
 ```
@@ -152,54 +158,65 @@ prog_cat <- prog_cat %>%
 
 ```{r}
 ggplot(prog_cat, aes(x = community, y = prop_grant)) +
-  geom_boxplot()
+  geom_boxplot() +
+  theme_bw()
+
 ggplot(prog_cat, aes(x = bipoc, y = prop_grant)) +
   geom_boxplot() +
-  facet_wrap(. ~ schoolyr)
+  facet_wrap(. ~ schoolyr) +
+  theme_bw()
 
 ggplot(prog_cat, aes(x = community, y = prop_grant)) +
   geom_boxplot() +
-  facet_wrap(. ~ schoolyr)
+  coord_flip() +
+  facet_wrap(. ~ schoolyr) +
+  theme_bw()
 
 prog_cat %>%
   filter(schoolyr == "2018-2019") %>%
   ggplot(aes(x = community, y = prop_grant)) +
   labs(title = "2018-2019") +
-  geom_boxplot()
+  geom_boxplot() +
+  theme_bw()
 
 prog_cat %>%
   filter(schoolyr == "2019-2020") %>%
   ggplot(aes(x = community, y = prop_grant)) +
   labs(title = "2019-2020") +
-  geom_boxplot()
+  geom_boxplot() +
+  theme_bw()
 
 ggplot(prog_cat, aes(x = community, y = prop_grant)) +
-  geom_point(alpha = 0.3)
+  geom_point(alpha = 0.3)+
+  theme_bw()
 
 ggplot(prog_cat, aes(x = prop_grant)) +
-  geom_histogram(aes(color = community, fill = community),
-                 position = "identity", alpha = 0.2) +
-  scale_color_manual(values = c("red", "blue", "green", "purple", "yellow","white")) +
-  scale_fill_manual(values = c("red", "blue","green", "purple", "yellow", "white"))
+  geom_histogram(aes(fill = factor(community, levels=c("Asian", "Black", "Indigenous", "Latinx", "Middle-Eastern", "Other BIPOC group", "Nonspecific"))),
+                 position = "stack", color = "white") +
+  scale_fill_discrete(name = "community") +
+  theme_bw()
 
 ggplot(prog_cat, aes(x = prop_grant)) +
   geom_histogram() +
-  facet_wrap(. ~ community)
+  facet_wrap(. ~ community) +
+  theme_bw()
 ```
 
 
 ```{r}
 ggplot(prog_cat, aes(x = community, y = deny)) +
-  geom_boxplot()
+  geom_boxplot() +
+  theme_bw()
 
 ggplot(prog_cat, aes(x = community, y = deny)) +
-  geom_point(alpha = 0.3)
+  geom_point(alpha = 0.3) +
+  theme_bw()
 
 ggplot(prog_cat, aes(x = deny)) +
-  geom_histogram(aes(color = community, fill = community),
-                 position = "identity", alpha = 0.2) +
-  scale_color_manual(values = c("red", "blue", "green", "purple", "yellow", "white")) +
-  scale_fill_manual(values = c("red", "blue","green", "purple", "yellow", "white"))
+  geom_histogram(aes(fill = factor(community, levels=c("Asian", "Black", "Indigenous", "Latinx", "Middle-Eastern", "Other BIPOC group", "Nonspecific"))),
+                 position = "stack", color = "white") +
+  scale_fill_discrete(name = "community") +
+  theme_bw()
 
 ggplot(prog_cat, aes(x = deny)) +
   geom_histogram() +
@@ -227,12 +244,12 @@ aggregate(prog_cat$deny, list(prog_cat$community), sum) %>%
 
 ```{r}
 model_bipoc <- lm(prop_grant ~ bipoc, data = prog_cat)
-kable(model_bipoc %>% tidy(conf.int=TRUE),digits=3)
-kable(tidy(aov(model_bipoc)),digits=3)
+kbl(model_bipoc %>% tidy(conf.int=TRUE),digits=3)
+kbl(tidy(aov(model_bipoc)),digits=3)
 
 
 model_comm <- lm(prop_grant ~ community,data=prog_cat)
-kable(tidy(aov(model_comm)),digits=3)
+kbl(tidy(aov(model_comm)),digits=3)
 ```
 
 
