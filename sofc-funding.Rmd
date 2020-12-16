@@ -28,7 +28,9 @@ prog_cat <- prog %>%
               "Asian Intervarsity Christian Fellowship", #preetha added
               "Duke Amandla Chorus",
               "Duke Africa", #preetha added
+              "Duke Africa ",
               "Asian Students Association",
+              "Duke Asian American Theater", #preetha added
               "Black Student Alliance",
               "Duke Chinese Theater",
               "Duke Chinese Dance ", #preetha added
@@ -69,7 +71,9 @@ prog_cat <- prog %>%
               "Pakistani Students Association",
               "Duke CommuniTEA",
               "Duke Association for the Middle East",
-              "International Association",
+              "International Association ",
+              "Muslim Students' Association ",
+              "Duke Muslim Students Association",
               "Muslim Students Association",
               "Duke Sikh Society",
               "Students for Justice in Palestine") ~ "Y",
@@ -131,7 +135,7 @@ prog_cat <- prog_cat %>%
               "The Bridge",
               "United in Praise",
               "International Association") ~ "Other BIPOC group",
-    TRUE ~ "Nonspecific"
+    TRUE ~ "Non-BIPOC"
   ))
 ```
 
@@ -191,7 +195,11 @@ ggplot(prog_cat, aes(x = community, y = prop_grant)) +
   theme_bw()
 
 ggplot(prog_cat, aes(x = prop_grant)) +
-  geom_histogram(aes(fill = factor(community, levels=c("Asian", "Black", "Indigenous", "Latinx", "Middle-Eastern", "Other BIPOC group", "Nonspecific"))),
+  geom_histogram(aes(fill = factor(community, levels=c("Asian", "Black", 
+                                                       "Indigenous", "Latinx", 
+                                                       "Middle-Eastern", 
+                                                       "Other BIPOC group", 
+                                                       "Non-BIPOC"))),
                  position = "stack", color = "white") +
   scale_fill_discrete(name = "community") +
   theme_bw()
@@ -213,14 +221,15 @@ ggplot(prog_cat, aes(x = community, y = deny)) +
   theme_bw()
 
 ggplot(prog_cat, aes(x = deny)) +
-  geom_histogram(aes(fill = factor(community, levels=c("Asian", "Black", "Indigenous", "Latinx", "Middle-Eastern", "Other BIPOC group", "Nonspecific"))),
+  geom_histogram(aes(fill = factor(community, levels=c("Asian", "Black", "Indigenous", "Latinx", "Middle-Eastern", "Other BIPOC group", "Non-BIPOC"))),
                  position = "stack", color = "white") +
   scale_fill_discrete(name = "community") +
   theme_bw()
 
 ggplot(prog_cat, aes(x = deny)) +
   geom_histogram() +
-  facet_wrap(. ~ community)
+  facet_wrap(. ~ community) +
+  theme_bw()
 ```
 
 ```{r}
