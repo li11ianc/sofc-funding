@@ -147,4 +147,9 @@ budget <- read.csv("data/budgets.csv")
 budget <- label_bipoc(budget)
 write_csv(budget, "data-labeled/budget.csv")
 
+sofc <- read.csv("data/sofctotals.csv")
+sofc <- label_bipoc(sofc)
+write_csv(sofc, "data-labeled/sofc.csv")
+
+
 

@@ -19,9 +19,11 @@ prog <- read.csv("data-labeled/programming.csv")
 prog <- prog[-1]
 budget <- read.csv("data-labeled/budget.csv")
 budget <- budget[-1]
+sofc <- read.csv("data-labeled/sofc.csv")
+sofc <- sofc[-1]
 ```
 
-What to do with these groups?
+What to do with these groups? >>
 Center for Race Relations
 
 ```{r}
@@ -72,6 +74,10 @@ make_plots(prog)
 
 ```{r}
 make_plots(budget)
+```
+
+```{r}
+make_plots(sofc)
 ```
 
 
@@ -151,6 +157,17 @@ kbl(tidy(aov(model_bipoc)),digits=3)
 
 
 model_comm <- lm(prop_grant ~ community,data=budget)
+kbl(tidy(aov(model_comm)),digits=3)
+```
+
+```{r}
+# ANOVA for SOFC programming totals (right now this is only 2017-2018)
+model_bipoc <- lm(prop_grant ~ bipoc, data = sofc)
+kbl(model_bipoc %>% tidy(conf.int=TRUE),digits=3)
+kbl(tidy(aov(model_bipoc)),digits=3)
+
+
+model_comm <- lm(prop_grant ~ community,data=sofc)
 kbl(tidy(aov(model_comm)),digits=3)
 ```
 

@@ -195,9 +195,13 @@ sofc1718 <- sofc1718%>%
          grant = as.numeric(grant),
          schoolyr = "2017-2018")
 
-write.csv(sofc1718, "data/sofctotals.csv")
+sofc <- rbind(sofc1718) %>% # can use this if we add more sofc total sheets for other school years
+  mutate(deny = req - grant,
+         prop_grant = grant / req)
 
+sofc <- fix_orgnames(sofc)
 
+write.csv(sofc, "data/sofctotals.csv")
 
 
 

@@ -1,24 +1,24 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.4)  4 DEC 2020 17:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.18)  18 DEC 2020 11:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **sofc-funding.tex
 (./sofc-funding.tex
 LaTeX2e <2020-10-01> patch level 2
-L3 programming layer <2020-10-27> xparse <2020-03-03> (/Users/lillianclark/Libr
+L3 programming layer <2020-12-07> xparse <2020-03-03> (/Users/lillianclark/Libr
 ary/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
 (/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count175
-\c@section=\count176
-\c@subsection=\count177
-\c@subsubsection=\count178
-\c@paragraph=\count179
-\c@subparagraph=\count180
-\c@figure=\count181
-\c@table=\count182
+\c@part=\count177
+\c@section=\count178
+\c@subsection=\count179
+\c@subsubsection=\count180
+\c@paragraph=\count181
+\c@subparagraph=\count182
+\c@figure=\count183
+\c@table=\count184
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
@@ -85,13 +85,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count183
+\inf@bad=\count185
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count184
-\leftroot@=\count185
+\uproot@=\count186
+\leftroot@=\count187
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count186
-\DOTSCASE@=\count187
+\classnum@=\count188
+\DOTSCASE@=\count189
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -100,15 +100,15 @@ LaTeX Info: Redefining \cdots on input line 620.
 \big@size=\dimen141
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count188
-\c@MaxMatrixCols=\count189
+\macc@depth=\count190
+\c@MaxMatrixCols=\count191
 \dotsspace@=\muskip16
-\c@parentequation=\count190
-\dspbrk@lvl=\count191
+\c@parentequation=\count192
+\dspbrk@lvl=\count193
 \tag@help=\toks17
-\row@=\count192
-\column@=\count193
-\maxfields@=\count194
+\row@=\count194
+\column@=\count195
+\maxfields@=\count196
 \andhelp@=\toks18
 \eqnshift@=\dimen142
 \alignsep@=\dimen143
@@ -198,8 +198,8 @@ ty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen148
-\Hy@linkcounter=\count195
-\Hy@pagecounter=\count196
+\Hy@linkcounter=\count197
+\Hy@pagecounter=\count198
 (/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -212,7 +212,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count197
+\Hy@SavedSpaceFactor=\count199
 Package hyperref Info: Option `unicode' set `true' on input line 4338.
 (/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
@@ -226,7 +226,7 @@ Package hyperref Info: Plain pages OFF on input line 4479.
 Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count198
+\c@Hy@tempcnt=\count266
 (/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -241,7 +241,7 @@ lc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count199
+\Fld@menulength=\count267
 \Field@Width=\dimen150
 \Fld@charsize=\dimen151
 Package hyperref Info: Hyper figures OFF on input line 6347.
@@ -259,9 +259,9 @@ Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
 )
-\Hy@abspage=\count266
-\c@Item=\count267
-\c@Hfootnote=\count268
+\Hy@abspage=\count268
+\c@Item=\count269
+\c@Hfootnote=\count270
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 (/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
@@ -273,8 +273,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-\Fld@listcount=\count269
-\c@bookmark@seq@number=\count270
+\Fld@listcount=\count271
+\c@bookmark@seq@number=\count272
 
 (/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunf
 ilecheck.sty
@@ -296,9 +296,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count271
-\Gm@cntv=\count272
-\c@Gm@tempcnt=\count273
+\Gm@cnth=\count273
+\Gm@cntv=\count274
+\c@Gm@tempcnt=\count275
 \Gm@bindingoffset=\dimen152
 \Gm@wd@mp=\dimen153
 \Gm@odd@mp=\dimen154
@@ -323,11 +323,11 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 (/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2020/05/03 v3.6 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count274
+\FV@CodeLineNo=\count276
 \FV@InFile=\read2
 \FV@TabBox=\box49
-\c@FancyVerbLine=\count275
-\FV@StepNumber=\count276
+\c@FancyVerbLine=\count277
+\FV@StepNumber=\count278
 \FV@OutFile=\write3
 ) (/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
@@ -371,12 +371,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen173
 \cmidrulekern=\dimen174
 \defaultaddspace=\dimen175
-\@cmidla=\count277
-\@cmidlb=\count278
+\@cmidla=\count279
+\@cmidlb=\count280
 \@aboverulesep=\dimen176
 \@belowrulesep=\dimen177
-\@thisruleclass=\count279
-\@lastruleclass=\count280
+\@thisruleclass=\count281
+\@lastruleclass=\count282
 \@thisrulewidth=\dimen178
 ) (/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
@@ -384,16 +384,16 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTright=\skip55
 \LTpre=\skip56
 \LTpost=\skip57
-\LTchunksize=\count281
+\LTchunksize=\count283
 \LTcapwidth=\dimen179
 \LT@head=\box50
 \LT@firsthead=\box51
 \LT@foot=\box52
 \LT@lastfoot=\box53
-\LT@cols=\count282
-\LT@rows=\count283
-\c@LT@tables=\count284
-\c@LT@chunks=\count285
+\LT@cols=\count284
+\LT@rows=\count285
+\c@LT@tables=\count286
+\c@LT@chunks=\count287
 \LT@p@ftn=\toks25
 ) (/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
 Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
@@ -408,19 +408,19 @@ Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 (/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@colwidth=\skip60
-\multirow@cntb=\count286
+\multirow@cntb=\count288
 \multirow@dima=\skip61
 \bigstrutjot=\dimen182
 ) (/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen183
 \WF@size=\dimen184
-\c@WF@wrappedlines=\count287
+\c@WF@wrappedlines=\count289
 \WF@box=\box56
 \WF@everypar=\toks27
 Package: wrapfig 2003/01/31  v 3.6
 ) (/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count288
+\c@float@type=\count290
 \float@exts=\toks28
 \float@box=\box57
 \@float@everytoks=\toks29
@@ -444,16 +444,16 @@ Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
 (/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box59
-\sift@deathcycles=\count289
+\sift@deathcycles=\count291
 \@vwid@loff=\dimen185
 \@vwid@roff=\dimen186
 )
-\c@taburow=\count290
-\tabu@nbcols=\count291
-\tabu@cnt=\count292
-\tabu@Xcol=\count293
-\tabu@alloc=\count294
-\tabu@nested=\count295
+\c@taburow=\count292
+\tabu@nbcols=\count293
+\tabu@cnt=\count294
+\tabu@Xcol=\count295
+\tabu@alloc=\count296
+\tabu@nested=\count297
 \tabu@target=\dimen187
 \tabu@spreadtarget=\dimen188
 \tabu@naturalX=\dimen189
@@ -479,25 +479,690 @@ Package: threeparttable 2003/06/13  v 3.0
 (/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/threeparttablex/three
 parttablex.sty
 Package: threeparttablex 2013/07/23 v0.3 by daleif
+(/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
 
-! LaTeX Error: File `environ.sty' not found.
+(/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/trimspaces/trimspaces
+.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\TPTL@width=\skip64
+) (/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box65
+\UL@hyphenbox=\box66
+\UL@skip=\skip65
+\UL@hook=\toks33
+\UL@height=\dimen196
+\UL@pe=\count298
+\UL@pixel=\dimen197
+\ULC@box=\box67
+Package: ulem 2019/11/18
+\ULdepth=\dimen198
+)
+(/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen199
+\c@nlinenum=\count299
+\TeXr@lab=\toks34
+) (/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
+(/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cf
+g
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-p
+dftex.def
+File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count300
+\l__pdf_internal_box=\box68
+) (./sofc-funding.aux)
+\openout1 = `sofc-funding.aux'.
 
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.26 ^^M
-         
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+Package hyperref Info: Link coloring OFF on input line 125.
+(/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gett
+itlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count301
+)
+LaTeX Info: Redefining \ref on input line 125.
+LaTeX Info: Redefining \pageref on input line 125.
+LaTeX Info: Redefining \nameref on input line 125.
+(./sofc-funding.out) (./sofc-funding.out)
+\@outlinefile=\write4
+\openout4 = `sofc-funding.out'.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf
+-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-
+sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+27.
+(/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+27.
+(/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+127.
+(/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+127.
+(/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 127.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 127.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 127.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 127
+.
+(/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 127
+.
+(/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+Package xcolor Warning: Incompatible color definition on input line 128.
+
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+29.
+(/Users/lillianclark/Library/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 130.
+
+Package xcolor Warning: Incompatible color definition on input line 133.
+
+
+Package xcolor Warning: Incompatible color definition on input line 133.
+
+
+Package xcolor Warning: Incompatible color definition on input line 152.
+
+
+Package xcolor Warning: Incompatible color definition on input line 156.
+
+
+Package xcolor Warning: Incompatible color definition on input line 156.
+
+
+Package xcolor Warning: Incompatible color definition on input line 169.
+
+
+Package xcolor Warning: Incompatible color definition on input line 175.
+
+
+Package xcolor Warning: Incompatible color definition on input line 175.
+
+
+Package xcolor Warning: Incompatible color definition on input line 188.
+
+
+Package xcolor Warning: Incompatible color definition on input line 197.
+
+
+Package xcolor Warning: Incompatible color definition on input line 197.
+
+
+Package xcolor Warning: Incompatible color definition on input line 202.
+
+[1
+
+{/Users/lillianclark/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.m
+ap}]
+
+Package xcolor Warning: Incompatible color definition on input line 243.
+
+
+Package xcolor Warning: Incompatible color definition on input line 243.
+
+
+Package xcolor Warning: Incompatible color definition on input line 245.
+
+
+Package xcolor Warning: Incompatible color definition on input line 249.
+
+
+Package xcolor Warning: Incompatible color definition on input line 249.
+
+<sofc-funding_files/figure-latex/unnamed-chunk-4-1.pdf, id=14, 464.73625pt x 31
+5.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-4-1.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-4-1.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-4-1.pdf 
+ used on input line 255.
+(pdftex.def)             Requested size: 464.74928pt x 315.18634pt.
+[2]
+<sofc-funding_files/figure-latex/unnamed-chunk-4-2.pdf, id=19, 459.7175pt x 315
+.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-4-2.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-4-2.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-4-2.pdf 
+ used on input line 262.
+(pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
+[3 <./sofc-funding_files/figure-latex/unnamed-chunk-4-1.pdf>]
+<sofc-funding_files/figure-latex/unnamed-chunk-4-3.pdf, id=31, 462.72874pt x 31
+5.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-4-3.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-4-3.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-4-3.pdf 
+ used on input line 269.
+(pdftex.def)             Requested size: 462.73466pt x 315.18153pt.
+[4 <./sofc-funding_files/figure-latex/unnamed-chunk-4-2.pdf>]
+<sofc-funding_files/figure-latex/unnamed-chunk-4-4.pdf, id=43, 464.73625pt x 31
+5.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-4-4.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-4-4.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-4-4.pdf 
+ used on input line 276.
+(pdftex.def)             Requested size: 464.74928pt x 315.18634pt.
+[5 <./sofc-funding_files/figure-latex/unnamed-chunk-4-3.pdf>]
+<sofc-funding_files/figure-latex/unnamed-chunk-4-5.pdf, id=55, 453.695pt x 315.
+1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-4-5.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-4-5.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-4-5.pdf 
+ used on input line 287.
+(pdftex.def)             Requested size: 453.6939pt x 315.17673pt.
+[6 <./sofc-funding_files/figure-latex/unnamed-chunk-4-4.pdf>]
+<sofc-funding_files/figure-latex/unnamed-chunk-4-6.pdf, id=71, 459.7175pt x 315
+.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-4-6.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-4-6.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-4-6.pdf 
+ used on input line 298.
+(pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
+
+Package xcolor Warning: Incompatible color definition on input line 300.
+
+[7 <./sofc-funding_files/figure-latex/unnamed-chunk-4-5.pdf>]
+
+Package xcolor Warning: Incompatible color definition on input line 304.
+
+
+Package xcolor Warning: Incompatible color definition on input line 304.
+
+<sofc-funding_files/figure-latex/unnamed-chunk-5-1.pdf, id=84, 463.7325pt x 315
+.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-5-1.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-5-1.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-5-1.pdf 
+ used on input line 310.
+(pdftex.def)             Requested size: 463.73842pt x 315.18153pt.
+[8 <./sofc-funding_files/figure-latex/unnamed-chunk-4-6.pdf>]
+<sofc-funding_files/figure-latex/unnamed-chunk-5-2.pdf, id=96, 459.7175pt x 315
+.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-5-2.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-5-2.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-5-2.pdf 
+ used on input line 317.
+(pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
+[9 <./sofc-funding_files/figure-latex/unnamed-chunk-5-1.pdf>]
+<sofc-funding_files/figure-latex/unnamed-chunk-5-3.pdf, id=108, 459.7175pt x 31
+5.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-5-3.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-5-3.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-5-3.pdf 
+ used on input line 324.
+(pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
+[10 <./sofc-funding_files/figure-latex/unnamed-chunk-5-2.pdf>]
+<sofc-funding_files/figure-latex/unnamed-chunk-5-4.pdf, id=120, 463.7325pt x 31
+5.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-5-4.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-5-4.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-5-4.pdf 
+ used on input line 331.
+(pdftex.def)             Requested size: 463.73842pt x 315.18153pt.
+[11 <./sofc-funding_files/figure-latex/unnamed-chunk-5-3.pdf>]
+<sofc-funding_files/figure-latex/unnamed-chunk-5-5.pdf, id=132, 453.695pt x 315
+.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-5-5.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-5-5.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-5-5.pdf 
+ used on input line 342.
+(pdftex.def)             Requested size: 453.6939pt x 315.17673pt.
+[12 <./sofc-funding_files/figure-latex/unnamed-chunk-5-4.pdf>]
+<sofc-funding_files/figure-latex/unnamed-chunk-5-6.pdf, id=148, 459.7175pt x 31
+5.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-5-6.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-5-6.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-5-6.pdf 
+ used on input line 353.
+(pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
+
+Package xcolor Warning: Incompatible color definition on input line 355.
+
+[13 <./sofc-funding_files/figure-latex/unnamed-chunk-5-5.pdf>]
+
+Package xcolor Warning: Incompatible color definition on input line 359.
+
+
+Package xcolor Warning: Incompatible color definition on input line 359.
+
+<sofc-funding_files/figure-latex/unnamed-chunk-6-1.pdf, id=162, 459.7175pt x 31
+5.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-6-1.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-6-1.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-6-1.pdf 
+ used on input line 365.
+(pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
+[14 <./sofc-funding_files/figure-latex/unnamed-chunk-5-6.pdf>]
+<sofc-funding_files/figure-latex/unnamed-chunk-6-2.pdf, id=174, 459.7175pt x 31
+5.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-6-2.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-6-2.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-6-2.pdf 
+ used on input line 372.
+(pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
+[15 <./sofc-funding_files/figure-latex/unnamed-chunk-6-1.pdf>]
+<sofc-funding_files/figure-latex/unnamed-chunk-6-3.pdf, id=186, 459.7175pt x 31
+5.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-6-3.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-6-3.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-6-3.pdf 
+ used on input line 379.
+(pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
+[16 <./sofc-funding_files/figure-latex/unnamed-chunk-6-2.pdf>]
+<sofc-funding_files/figure-latex/unnamed-chunk-6-4.pdf, id=198, 459.7175pt x 31
+5.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-6-4.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-6-4.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-6-4.pdf 
+ used on input line 386.
+(pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
+[17 <./sofc-funding_files/figure-latex/unnamed-chunk-6-3.pdf>]
+<sofc-funding_files/figure-latex/unnamed-chunk-6-5.pdf, id=210, 453.695pt x 315
+.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-6-5.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-6-5.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-6-5.pdf 
+ used on input line 397.
+(pdftex.def)             Requested size: 453.6939pt x 315.17673pt.
+[18 <./sofc-funding_files/figure-latex/unnamed-chunk-6-4.pdf>]
+<sofc-funding_files/figure-latex/unnamed-chunk-6-6.pdf, id=226, 459.7175pt x 31
+5.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-6-6.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-6-6.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-6-6.pdf 
+ used on input line 408.
+(pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
+
+Package xcolor Warning: Incompatible color definition on input line 410.
+
+[19 <./sofc-funding_files/figure-latex/unnamed-chunk-6-5.pdf>]
+
+Package xcolor Warning: Incompatible color definition on input line 419.
+
+
+Package xcolor Warning: Incompatible color definition on input line 419.
+
+<sofc-funding_files/figure-latex/unnamed-chunk-7-1.pdf, id=239, 459.7175pt x 31
+5.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-7-1.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-7-1.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-7-1.pdf 
+ used on input line 421.
+(pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
+
+Package xcolor Warning: Incompatible color definition on input line 423.
+
+[20 <./sofc-funding_files/figure-latex/unnamed-chunk-6-6.pdf>]
+
+Package xcolor Warning: Incompatible color definition on input line 432.
+
+
+Package xcolor Warning: Incompatible color definition on input line 432.
+
+<sofc-funding_files/figure-latex/unnamed-chunk-7-2.pdf, id=251, 463.7325pt x 31
+5.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-7-2.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-7-2.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-7-2.pdf 
+ used on input line 434.
+(pdftex.def)             Requested size: 463.73842pt x 315.18153pt.
+
+Package xcolor Warning: Incompatible color definition on input line 436.
+
+[21 <./sofc-funding_files/figure-latex/unnamed-chunk-7-1.pdf>]
+
+Package xcolor Warning: Incompatible color definition on input line 442.
+
+
+Package xcolor Warning: Incompatible color definition on input line 442.
+
+<sofc-funding_files/figure-latex/unnamed-chunk-8-1.pdf, id=263, 464.73625pt x 3
+15.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-8-1.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-8-1.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-8-1.pdf 
+ used on input line 444.
+(pdftex.def)             Requested size: 464.74928pt x 315.18634pt.
+
+Package xcolor Warning: Incompatible color definition on input line 446.
+
+[22 <./sofc-funding_files/figure-latex/unnamed-chunk-7-2.pdf>]
+
+Package xcolor Warning: Incompatible color definition on input line 452.
+
+
+Package xcolor Warning: Incompatible color definition on input line 452.
+
+<sofc-funding_files/figure-latex/unnamed-chunk-8-2.pdf, id=275, 464.73625pt x 3
+15.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-8-2.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-8-2.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-8-2.pdf 
+ used on input line 454.
+(pdftex.def)             Requested size: 464.74928pt x 315.18634pt.
+
+Package xcolor Warning: Incompatible color definition on input line 456.
+
+[23 <./sofc-funding_files/figure-latex/unnamed-chunk-8-1.pdf>]
+
+Package xcolor Warning: Incompatible color definition on input line 464.
+
+
+Package xcolor Warning: Incompatible color definition on input line 464.
+
+<sofc-funding_files/figure-latex/unnamed-chunk-8-3.pdf, id=287, 453.695pt x 315
+.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-8-3.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-8-3.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-8-3.pdf 
+ used on input line 470.
+(pdftex.def)             Requested size: 453.6939pt x 315.17673pt.
+
+Package xcolor Warning: Incompatible color definition on input line 472.
+
+[24 <./sofc-funding_files/figure-latex/unnamed-chunk-8-2.pdf>]
+
+Package xcolor Warning: Incompatible color definition on input line 479.
+
+
+Package xcolor Warning: Incompatible color definition on input line 479.
+
+<sofc-funding_files/figure-latex/unnamed-chunk-8-4.pdf, id=303, 459.7175pt x 31
+5.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-8-4.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-8-4.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-8-4.pdf 
+ used on input line 485.
+(pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
+
+Package xcolor Warning: Incompatible color definition on input line 487.
+
+[25 <./sofc-funding_files/figure-latex/unnamed-chunk-8-3.pdf>]
+
+Package xcolor Warning: Incompatible color definition on input line 493.
+
+
+Package xcolor Warning: Incompatible color definition on input line 493.
+
+
+Package xcolor Warning: Incompatible color definition on input line 509.
+
+
+Package xcolor Warning: Incompatible color definition on input line 514.
+
+
+Package xcolor Warning: Incompatible color definition on input line 514.
+
+[26 <./sofc-funding_files/figure-latex/unnamed-chunk-8-4.pdf>]
+
+Package xcolor Warning: Incompatible color definition on input line 528.
+
+
+Package xcolor Warning: Incompatible color definition on input line 534.
+
+
+Package xcolor Warning: Incompatible color definition on input line 534.
+
+
+Package xcolor Warning: Incompatible color definition on input line 550.
+
+
+Package xcolor Warning: Incompatible color definition on input line 555.
+
+
+Package xcolor Warning: Incompatible color definition on input line 555.
+
+
+Package xcolor Warning: Incompatible color definition on input line 569.
+
+
+Package xcolor Warning: Incompatible color definition on input line 574.
+
+
+Package xcolor Warning: Incompatible color definition on input line 574.
+
+
+Package xcolor Warning: Incompatible color definition on input line 588.
+
+
+Package xcolor Warning: Incompatible color definition on input line 594.
+
+
+Package xcolor Warning: Incompatible color definition on input line 594.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 596.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 596.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 596.
+
+Package xcolor Warning: Incompatible color definition on input line 606.
+
+[27]
+
+Package xcolor Warning: Incompatible color definition on input line 610.
+
+
+Package xcolor Warning: Incompatible color definition on input line 610.
+
+
+Package xcolor Warning: Incompatible color definition on input line 622.
+
+
+Package xcolor Warning: Incompatible color definition on input line 627.
+
+
+Package xcolor Warning: Incompatible color definition on input line 627.
+
+
+Package xcolor Warning: Incompatible color definition on input line 639.
+
+
+Package xcolor Warning: Incompatible color definition on input line 645.
+
+
+Package xcolor Warning: Incompatible color definition on input line 645.
+
+
+Package xcolor Warning: Incompatible color definition on input line 657.
+
+
+Package xcolor Warning: Incompatible color definition on input line 661.
+
+
+Package xcolor Warning: Incompatible color definition on input line 661.
+
+
+Package xcolor Warning: Incompatible color definition on input line 673.
+
+
+Package xcolor Warning: Incompatible color definition on input line 678.
+
+
+Package xcolor Warning: Incompatible color definition on input line 678.
+
+
+Package xcolor Warning: Incompatible color definition on input line 690.
+
+
+Package xcolor Warning: Incompatible color definition on input line 696.
+
+
+Package xcolor Warning: Incompatible color definition on input line 696.
+
+
+Package xcolor Warning: Incompatible color definition on input line 708.
+
+
+Package xcolor Warning: Incompatible color definition on input line 712.
+
+
+Package xcolor Warning: Incompatible color definition on input line 712.
+
+
+Package xcolor Warning: Incompatible color definition on input line 724.
+
+[28]
+
+Package xcolor Warning: Incompatible color definition on input line 729.
+
+
+Package xcolor Warning: Incompatible color definition on input line 729.
+
+[29] (./sofc-funding.aux)
+Package rerunfilecheck Info: File `sofc-funding.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
 Here is how much of TeX's memory you used:
- 11037 strings out of 481433
- 157232 string characters out of 5919085
- 442268 words of memory out of 5000000
- 27655 multiletter control sequences out of 15000+600000
- 538078 words of font info for 30 fonts, out of 8000000 for 9000
+ 12542 strings out of 481330
+ 187193 string characters out of 5916476
+ 489816 words of memory out of 5000000
+ 29101 multiletter control sequences out of 15000+600000
+ 437787 words of font info for 65 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 66i,0n,72p,246b,270s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,7n,72p,506b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/Users/lillianclark/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}
+</Users/lillianclark/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb
+></Users/lillianclark/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pf
+b></Users/lillianclark/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.p
+fb></Users/lillianclark/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtk10
+.pfb></Users/lillianclark/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt
+10.pfb></Users/lillianclark/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lm
+tti10.pfb>
+Output written on sofc-funding.pdf (29 pages, 323605 bytes).
+PDF statistics:
+ 370 PDF objects out of 1000 (max. 8388607)
+ 258 compressed objects within 3 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-!  ==> Fatal error occurred, no output PDF file produced!
