@@ -50,9 +50,11 @@ sheet4_fix <- sheet4[1:4] %>%
 
 programming <- rbind(sheet1_fix, sheet2_fix, sheet3_fix, sheet4_fix) %>%
   rename(date = dateOfSenateMeeting, org = orgName, req = totalRequested, grant = totalGranted) %>%
-  mutate(deny = req - grant)
+  mutate(deny = req - grant,
+         prop_grant = grant / req)
 
-programming_fix <- programming %>%
+fix_orgnames <- function(x) {
+x_new <- x %>%
   mutate(org = as.character(org)) %>% 
   mutate(org = case_when(
     org == "Natuve American Student Organization" 
@@ -67,9 +69,9 @@ programming_fix <- programming %>%
       ~ "Phi Beta Sigma Fraternity, Inc.",
     org %in% c("Muslim Students' Association, Muslim Students Association", "Duke MSA") 
       ~ "Duke Muslim Students Association",
-    org %in% c("La Unidad Latina, Lambda Upsilon Lambda Fraternity, Inc.", "La Unidad Latina") 
+    org %in% c("La Unidad Latina, Lambda Upsilon Lambda Fraternity, Inc.", "La Unidad Latina", "La Unidad Latina, Lambda Upsilon Lambda Fraternity, Inc.") 
       ~ "La Unidad Latina Lambda Upsilon Lambda Fraternity, Inc.",
-    org %in% c("International Association (IA)") 
+    org %in% c("International Association (IA)", "International Association ") 
       ~ "International Association",
     org %in% c("Alpha Kappa Alpha") 
       ~ "Alpha Kappa Alpha Sorority, Inc.",
@@ -91,16 +93,50 @@ programming_fix <- programming %>%
       ~ "	Alpha Kappa Delta Phi",
     org == "CommuniTEA"
       ~ "Duke CommuniTEA",
-    org == "Lambda Theta Alpha" 
+    org %in% c("Lambda Theta Alpha", "Lambda Theta Alpha Latin Sorority Inc.")
       ~ "Lambda Theta Alpha Latin Sorority, Inc.",
     org == "Kappa Alpha Psi" 
       ~ "Kappa Alpha Psi Fraternity, Inc.",
     org == "DUSDAC" ~ "Duke University Student Dining Advisory Committee",
+    org %in% c("Duke Nepalese Student Association") ~ "Duke Nepali Student Association",
+    org %in% c("Duke Association for the Middle East (DAME)") ~ "Duke Association for the Middle East",
+    org %in% c("Duke Diya (South Asian Students Association)", "Duke South Asian Students Association (DIYA)")
+      ~ "Duke Diya",
+    org %in% c("Duke Ethiopian/Eritrean Student Transactional Association")
+      ~ "Duke Ethiopian/Eritrean Student Transnational Association",
+    org %in% c("Alpha Phi Alpha Fraternity Inc. (Kappa Omicron)")
+      ~ "Alpha Phi Alpha Fraternity, Inc.",
+    org %in% c("Kappa Alpha Psi Inc")
+      ~ "Kappa Alpha Psi Fraternity, Inc.",
     TRUE ~ org
   ))
 
+  return(x_new)
+}
+
+programming_fix <- fix_orgnames(programming)
+
 programming_fix <- programming_fix %>%
   distinct()
+
+programming_fix <- programming_fix %>%
+  filter(!is.na(date), deny >= 0) %>%
+  mutate(prop_grant = grant / req,
+         year = year(date),
+         month = month(date),
+         sem = case_when(
+           month %in% c(1, 2, 3, 4, 5, 6) ~ "Spring",
+           month %in% c(7, 8, 9, 10, 11, 12) ~ "Fall"),
+         schoolyr = case_when(
+           year == 2016 & sem == "Fall" ~ "2016-2017",
+           year == 2017 & sem == "Spring" ~ "2016-2017",
+           year == 2017 & sem == "Fall" ~ "2017-2018",
+           year == 2018 & sem == "Spring" ~ "2017-2018",
+           year == 2018 & sem == "Fall" ~ "2018-2019",
+           year == 2019 & sem == "Spring" ~ "2018-2019",
+           year == 2019 & sem == "Fall" ~ "2019-2020",
+           year == 2020 & sem == "Spring" ~ "2019-2020"
+         ))
 
 write.csv(programming_fix, "data/programming.csv")
 
@@ -110,9 +146,8 @@ budg1920 <- budg1920 %>%
   janitor::clean_names()
 
 budg1920 <- budg1920 %>%
-  select(org = on_behalf_of, req = requested_amount, grant = adjusted_amount)
-
-write.csv(budg1920, "data/budget19_20.csv")
+  select(org = on_behalf_of, req = requested_amount, grant = adjusted_amount) %>%
+  mutate(schoolyr = "2019-2020")
 
 budg2021 <- read.csv("data/AB 2020-2021.xlsx - Master AB 2020-2021.csv")
 
@@ -129,11 +164,40 @@ budg2021 <- budg2021 %>%
          grant = case_when(
            grant == " -   " ~ "0", # or should be as.character(NA)?
            TRUE ~ grant),
-         grant = as.numeric(grant))
+         grant = as.numeric(grant),
+         schoolyr = "2020-2021")
 
 #budg2021$org <- trimws(budg2021$org, which = c("both"))
 
-write.csv(budg2021, "data/budget20_21.csv")
+budget <- rbind(budg1920, budg2021) %>%
+  mutate(deny = req - grant,
+         prop_grant = grant / req)
+
+budget <- fix_orgnames(budget)
+
+write.csv(budget, "data/budgets.csv")
+
+sofc1718 <- read.csv("data/2017-2018 sofc - Funded v. Requested.csv")
+
+sofc1718 <- sofc1718 %>%
+  janitor::clean_names() %>%
+  select(org = x, req = sum_of_requested, grant = sum_of_funded)
+
+sofc1718 <- sofc1718%>%
+  mutate(req = str_remove(req, "\\$"),
+         req = str_remove(req, ","),
+         req = as.numeric(req),
+         grant = str_remove(grant, "\\$"),
+         grant = str_remove(grant, ","),
+         grant = case_when(
+           grant == " -   " ~ "0", # or should be as.character(NA)?
+           TRUE ~ grant),
+         grant = as.numeric(grant),
+         schoolyr = "2017-2018")
+
+write.csv(sofc1718, "data/sofctotals.csv")
+
+
 
 
 
