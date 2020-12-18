@@ -104,3 +104,36 @@ programming_fix <- programming_fix %>%
 
 write.csv(programming_fix, "data/programming.csv")
 
+budg1920 <- read.csv("data/AB 2019-2020.xlsx - Final.csv")
+
+budg1920 <- budg1920 %>%
+  janitor::clean_names()
+
+budg1920 <- budg1920 %>%
+  select(org = on_behalf_of, req = requested_amount, grant = adjusted_amount)
+
+write.csv(budg1920, "data/budget19_20.csv")
+
+budg2021 <- read.csv("data/AB 2020-2021.xlsx - Master AB 2020-2021.csv")
+
+budg2021 <- budg2021[1:126,] %>%
+  janitor::clean_names() %>%
+  select(org = organization_name, req = amount_requested, grant = amount_funded)
+
+budg2021 <- budg2021 %>%
+  mutate(req = str_remove(req, "\\$"),
+         req = str_remove(req, ","),
+         req = as.numeric(req),
+         grant = str_remove(grant, "\\$"),
+         grant = str_remove(grant, ","),
+         grant = case_when(
+           grant == " -   " ~ "0", # or should be as.character(NA)?
+           TRUE ~ grant),
+         grant = as.numeric(grant))
+
+#budg2021$org <- trimws(budg2021$org, which = c("both"))
+
+write.csv(budg2021, "data/budget20_21.csv")
+
+
+
