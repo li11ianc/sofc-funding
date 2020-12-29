@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.18)  18 DEC 2020 11:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.18)  29 DEC 2020 11:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -689,32 +689,41 @@ Package xcolor Warning: Incompatible color definition on input line 175.
 Package xcolor Warning: Incompatible color definition on input line 188.
 
 
-Package xcolor Warning: Incompatible color definition on input line 197.
+Package xcolor Warning: Incompatible color definition on input line 199.
 
 
-Package xcolor Warning: Incompatible color definition on input line 197.
+Package xcolor Warning: Incompatible color definition on input line 199.
 
 
-Package xcolor Warning: Incompatible color definition on input line 202.
+Package xcolor Warning: Incompatible color definition on input line 199.
 
 [1
 
 {/Users/lillianclark/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.m
 ap}]
 
-Package xcolor Warning: Incompatible color definition on input line 243.
+Package xcolor Warning: Incompatible color definition on input line 199.
 
 
-Package xcolor Warning: Incompatible color definition on input line 243.
+Package xcolor Warning: Incompatible color definition on input line 199.
 
 
-Package xcolor Warning: Incompatible color definition on input line 245.
+Package xcolor Warning: Incompatible color definition on input line 201.
 
 
-Package xcolor Warning: Incompatible color definition on input line 249.
+Package xcolor Warning: Incompatible color definition on input line 242.
 
 
-Package xcolor Warning: Incompatible color definition on input line 249.
+Package xcolor Warning: Incompatible color definition on input line 242.
+
+
+Package xcolor Warning: Incompatible color definition on input line 244.
+
+
+Package xcolor Warning: Incompatible color definition on input line 248.
+
+
+Package xcolor Warning: Incompatible color definition on input line 248.
 
 <sofc-funding_files/figure-latex/unnamed-chunk-4-1.pdf, id=14, 464.73625pt x 31
 5.1775pt>
@@ -722,7 +731,7 @@ File: sofc-funding_files/figure-latex/unnamed-chunk-4-1.pdf Graphic file (type
 pdf)
 <use sofc-funding_files/figure-latex/unnamed-chunk-4-1.pdf>
 Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-4-1.pdf 
- used on input line 255.
+ used on input line 254.
 (pdftex.def)             Requested size: 464.74928pt x 315.18634pt.
 [2]
 <sofc-funding_files/figure-latex/unnamed-chunk-4-2.pdf, id=19, 459.7175pt x 315
@@ -731,7 +740,7 @@ File: sofc-funding_files/figure-latex/unnamed-chunk-4-2.pdf Graphic file (type
 pdf)
 <use sofc-funding_files/figure-latex/unnamed-chunk-4-2.pdf>
 Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-4-2.pdf 
- used on input line 262.
+ used on input line 261.
 (pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
 [3 <./sofc-funding_files/figure-latex/unnamed-chunk-4-1.pdf>]
 <sofc-funding_files/figure-latex/unnamed-chunk-4-3.pdf, id=31, 462.72874pt x 31
@@ -740,7 +749,7 @@ File: sofc-funding_files/figure-latex/unnamed-chunk-4-3.pdf Graphic file (type
 pdf)
 <use sofc-funding_files/figure-latex/unnamed-chunk-4-3.pdf>
 Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-4-3.pdf 
- used on input line 269.
+ used on input line 268.
 (pdftex.def)             Requested size: 462.73466pt x 315.18153pt.
 [4 <./sofc-funding_files/figure-latex/unnamed-chunk-4-2.pdf>]
 <sofc-funding_files/figure-latex/unnamed-chunk-4-4.pdf, id=43, 464.73625pt x 31
@@ -749,7 +758,7 @@ File: sofc-funding_files/figure-latex/unnamed-chunk-4-4.pdf Graphic file (type
 pdf)
 <use sofc-funding_files/figure-latex/unnamed-chunk-4-4.pdf>
 Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-4-4.pdf 
- used on input line 276.
+ used on input line 275.
 (pdftex.def)             Requested size: 464.74928pt x 315.18634pt.
 [5 <./sofc-funding_files/figure-latex/unnamed-chunk-4-3.pdf>]
 <sofc-funding_files/figure-latex/unnamed-chunk-4-5.pdf, id=55, 453.695pt x 315.
@@ -758,7 +767,7 @@ File: sofc-funding_files/figure-latex/unnamed-chunk-4-5.pdf Graphic file (type
 pdf)
 <use sofc-funding_files/figure-latex/unnamed-chunk-4-5.pdf>
 Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-4-5.pdf 
- used on input line 287.
+ used on input line 286.
 (pdftex.def)             Requested size: 453.6939pt x 315.17673pt.
 [6 <./sofc-funding_files/figure-latex/unnamed-chunk-4-4.pdf>]
 <sofc-funding_files/figure-latex/unnamed-chunk-4-6.pdf, id=71, 459.7175pt x 315
@@ -767,17 +776,17 @@ File: sofc-funding_files/figure-latex/unnamed-chunk-4-6.pdf Graphic file (type
 pdf)
 <use sofc-funding_files/figure-latex/unnamed-chunk-4-6.pdf>
 Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-4-6.pdf 
- used on input line 298.
+ used on input line 297.
 (pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
 
-Package xcolor Warning: Incompatible color definition on input line 300.
+Package xcolor Warning: Incompatible color definition on input line 299.
 
 [7 <./sofc-funding_files/figure-latex/unnamed-chunk-4-5.pdf>]
 
-Package xcolor Warning: Incompatible color definition on input line 304.
+Package xcolor Warning: Incompatible color definition on input line 303.
 
 
-Package xcolor Warning: Incompatible color definition on input line 304.
+Package xcolor Warning: Incompatible color definition on input line 303.
 
 <sofc-funding_files/figure-latex/unnamed-chunk-5-1.pdf, id=84, 463.7325pt x 315
 .1775pt>
@@ -785,7 +794,7 @@ File: sofc-funding_files/figure-latex/unnamed-chunk-5-1.pdf Graphic file (type
 pdf)
 <use sofc-funding_files/figure-latex/unnamed-chunk-5-1.pdf>
 Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-5-1.pdf 
- used on input line 310.
+ used on input line 309.
 (pdftex.def)             Requested size: 463.73842pt x 315.18153pt.
 [8 <./sofc-funding_files/figure-latex/unnamed-chunk-4-6.pdf>]
 <sofc-funding_files/figure-latex/unnamed-chunk-5-2.pdf, id=96, 459.7175pt x 315
@@ -794,7 +803,7 @@ File: sofc-funding_files/figure-latex/unnamed-chunk-5-2.pdf Graphic file (type
 pdf)
 <use sofc-funding_files/figure-latex/unnamed-chunk-5-2.pdf>
 Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-5-2.pdf 
- used on input line 317.
+ used on input line 316.
 (pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
 [9 <./sofc-funding_files/figure-latex/unnamed-chunk-5-1.pdf>]
 <sofc-funding_files/figure-latex/unnamed-chunk-5-3.pdf, id=108, 459.7175pt x 31
@@ -803,7 +812,7 @@ File: sofc-funding_files/figure-latex/unnamed-chunk-5-3.pdf Graphic file (type
 pdf)
 <use sofc-funding_files/figure-latex/unnamed-chunk-5-3.pdf>
 Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-5-3.pdf 
- used on input line 324.
+ used on input line 323.
 (pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
 [10 <./sofc-funding_files/figure-latex/unnamed-chunk-5-2.pdf>]
 <sofc-funding_files/figure-latex/unnamed-chunk-5-4.pdf, id=120, 463.7325pt x 31
@@ -812,7 +821,7 @@ File: sofc-funding_files/figure-latex/unnamed-chunk-5-4.pdf Graphic file (type
 pdf)
 <use sofc-funding_files/figure-latex/unnamed-chunk-5-4.pdf>
 Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-5-4.pdf 
- used on input line 331.
+ used on input line 330.
 (pdftex.def)             Requested size: 463.73842pt x 315.18153pt.
 [11 <./sofc-funding_files/figure-latex/unnamed-chunk-5-3.pdf>]
 <sofc-funding_files/figure-latex/unnamed-chunk-5-5.pdf, id=132, 453.695pt x 315
@@ -821,7 +830,7 @@ File: sofc-funding_files/figure-latex/unnamed-chunk-5-5.pdf Graphic file (type
 pdf)
 <use sofc-funding_files/figure-latex/unnamed-chunk-5-5.pdf>
 Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-5-5.pdf 
- used on input line 342.
+ used on input line 341.
 (pdftex.def)             Requested size: 453.6939pt x 315.17673pt.
 [12 <./sofc-funding_files/figure-latex/unnamed-chunk-5-4.pdf>]
 <sofc-funding_files/figure-latex/unnamed-chunk-5-6.pdf, id=148, 459.7175pt x 31
@@ -830,17 +839,17 @@ File: sofc-funding_files/figure-latex/unnamed-chunk-5-6.pdf Graphic file (type
 pdf)
 <use sofc-funding_files/figure-latex/unnamed-chunk-5-6.pdf>
 Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-5-6.pdf 
- used on input line 353.
+ used on input line 352.
 (pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
 
-Package xcolor Warning: Incompatible color definition on input line 355.
+Package xcolor Warning: Incompatible color definition on input line 354.
 
 [13 <./sofc-funding_files/figure-latex/unnamed-chunk-5-5.pdf>]
 
-Package xcolor Warning: Incompatible color definition on input line 359.
+Package xcolor Warning: Incompatible color definition on input line 358.
 
 
-Package xcolor Warning: Incompatible color definition on input line 359.
+Package xcolor Warning: Incompatible color definition on input line 358.
 
 <sofc-funding_files/figure-latex/unnamed-chunk-6-1.pdf, id=162, 459.7175pt x 31
 5.1775pt>
@@ -848,7 +857,7 @@ File: sofc-funding_files/figure-latex/unnamed-chunk-6-1.pdf Graphic file (type
 pdf)
 <use sofc-funding_files/figure-latex/unnamed-chunk-6-1.pdf>
 Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-6-1.pdf 
- used on input line 365.
+ used on input line 364.
 (pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
 [14 <./sofc-funding_files/figure-latex/unnamed-chunk-5-6.pdf>]
 <sofc-funding_files/figure-latex/unnamed-chunk-6-2.pdf, id=174, 459.7175pt x 31
@@ -857,7 +866,7 @@ File: sofc-funding_files/figure-latex/unnamed-chunk-6-2.pdf Graphic file (type
 pdf)
 <use sofc-funding_files/figure-latex/unnamed-chunk-6-2.pdf>
 Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-6-2.pdf 
- used on input line 372.
+ used on input line 371.
 (pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
 [15 <./sofc-funding_files/figure-latex/unnamed-chunk-6-1.pdf>]
 <sofc-funding_files/figure-latex/unnamed-chunk-6-3.pdf, id=186, 459.7175pt x 31
@@ -866,7 +875,7 @@ File: sofc-funding_files/figure-latex/unnamed-chunk-6-3.pdf Graphic file (type
 pdf)
 <use sofc-funding_files/figure-latex/unnamed-chunk-6-3.pdf>
 Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-6-3.pdf 
- used on input line 379.
+ used on input line 378.
 (pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
 [16 <./sofc-funding_files/figure-latex/unnamed-chunk-6-2.pdf>]
 <sofc-funding_files/figure-latex/unnamed-chunk-6-4.pdf, id=198, 459.7175pt x 31
@@ -875,7 +884,7 @@ File: sofc-funding_files/figure-latex/unnamed-chunk-6-4.pdf Graphic file (type
 pdf)
 <use sofc-funding_files/figure-latex/unnamed-chunk-6-4.pdf>
 Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-6-4.pdf 
- used on input line 386.
+ used on input line 385.
 (pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
 [17 <./sofc-funding_files/figure-latex/unnamed-chunk-6-3.pdf>]
 <sofc-funding_files/figure-latex/unnamed-chunk-6-5.pdf, id=210, 453.695pt x 315
@@ -884,7 +893,7 @@ File: sofc-funding_files/figure-latex/unnamed-chunk-6-5.pdf Graphic file (type
 pdf)
 <use sofc-funding_files/figure-latex/unnamed-chunk-6-5.pdf>
 Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-6-5.pdf 
- used on input line 397.
+ used on input line 396.
 (pdftex.def)             Requested size: 453.6939pt x 315.17673pt.
 [18 <./sofc-funding_files/figure-latex/unnamed-chunk-6-4.pdf>]
 <sofc-funding_files/figure-latex/unnamed-chunk-6-6.pdf, id=226, 459.7175pt x 31
@@ -893,17 +902,17 @@ File: sofc-funding_files/figure-latex/unnamed-chunk-6-6.pdf Graphic file (type
 pdf)
 <use sofc-funding_files/figure-latex/unnamed-chunk-6-6.pdf>
 Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-6-6.pdf 
- used on input line 408.
+ used on input line 407.
 (pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
 
-Package xcolor Warning: Incompatible color definition on input line 410.
+Package xcolor Warning: Incompatible color definition on input line 409.
 
 [19 <./sofc-funding_files/figure-latex/unnamed-chunk-6-5.pdf>]
 
-Package xcolor Warning: Incompatible color definition on input line 419.
+Package xcolor Warning: Incompatible color definition on input line 413.
 
 
-Package xcolor Warning: Incompatible color definition on input line 419.
+Package xcolor Warning: Incompatible color definition on input line 413.
 
 <sofc-funding_files/figure-latex/unnamed-chunk-7-1.pdf, id=239, 459.7175pt x 31
 5.1775pt>
@@ -911,164 +920,237 @@ File: sofc-funding_files/figure-latex/unnamed-chunk-7-1.pdf Graphic file (type
 pdf)
 <use sofc-funding_files/figure-latex/unnamed-chunk-7-1.pdf>
 Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-7-1.pdf 
- used on input line 421.
+ used on input line 419.
 (pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
-
-Package xcolor Warning: Incompatible color definition on input line 423.
-
 [20 <./sofc-funding_files/figure-latex/unnamed-chunk-6-6.pdf>]
-
-Package xcolor Warning: Incompatible color definition on input line 432.
-
-
-Package xcolor Warning: Incompatible color definition on input line 432.
-
-<sofc-funding_files/figure-latex/unnamed-chunk-7-2.pdf, id=251, 463.7325pt x 31
+<sofc-funding_files/figure-latex/unnamed-chunk-7-2.pdf, id=251, 459.7175pt x 31
 5.1775pt>
 File: sofc-funding_files/figure-latex/unnamed-chunk-7-2.pdf Graphic file (type 
 pdf)
 <use sofc-funding_files/figure-latex/unnamed-chunk-7-2.pdf>
 Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-7-2.pdf 
- used on input line 434.
-(pdftex.def)             Requested size: 463.73842pt x 315.18153pt.
-
-Package xcolor Warning: Incompatible color definition on input line 436.
-
+ used on input line 426.
+(pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
 [21 <./sofc-funding_files/figure-latex/unnamed-chunk-7-1.pdf>]
-
-Package xcolor Warning: Incompatible color definition on input line 442.
-
-
-Package xcolor Warning: Incompatible color definition on input line 442.
-
-<sofc-funding_files/figure-latex/unnamed-chunk-8-1.pdf, id=263, 464.73625pt x 3
-15.1775pt>
-File: sofc-funding_files/figure-latex/unnamed-chunk-8-1.pdf Graphic file (type 
+<sofc-funding_files/figure-latex/unnamed-chunk-7-3.pdf, id=263, 459.7175pt x 31
+5.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-7-3.pdf Graphic file (type 
 pdf)
-<use sofc-funding_files/figure-latex/unnamed-chunk-8-1.pdf>
-Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-8-1.pdf 
- used on input line 444.
-(pdftex.def)             Requested size: 464.74928pt x 315.18634pt.
-
-Package xcolor Warning: Incompatible color definition on input line 446.
-
+<use sofc-funding_files/figure-latex/unnamed-chunk-7-3.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-7-3.pdf 
+ used on input line 433.
+(pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
 [22 <./sofc-funding_files/figure-latex/unnamed-chunk-7-2.pdf>]
-
-Package xcolor Warning: Incompatible color definition on input line 452.
-
-
-Package xcolor Warning: Incompatible color definition on input line 452.
-
-<sofc-funding_files/figure-latex/unnamed-chunk-8-2.pdf, id=275, 464.73625pt x 3
-15.1775pt>
-File: sofc-funding_files/figure-latex/unnamed-chunk-8-2.pdf Graphic file (type 
+<sofc-funding_files/figure-latex/unnamed-chunk-7-4.pdf, id=275, 459.7175pt x 31
+5.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-7-4.pdf Graphic file (type 
 pdf)
-<use sofc-funding_files/figure-latex/unnamed-chunk-8-2.pdf>
-Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-8-2.pdf 
- used on input line 454.
-(pdftex.def)             Requested size: 464.74928pt x 315.18634pt.
-
-Package xcolor Warning: Incompatible color definition on input line 456.
-
-[23 <./sofc-funding_files/figure-latex/unnamed-chunk-8-1.pdf>]
-
-Package xcolor Warning: Incompatible color definition on input line 464.
-
-
-Package xcolor Warning: Incompatible color definition on input line 464.
-
-<sofc-funding_files/figure-latex/unnamed-chunk-8-3.pdf, id=287, 453.695pt x 315
+<use sofc-funding_files/figure-latex/unnamed-chunk-7-4.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-7-4.pdf 
+ used on input line 440.
+(pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
+[23 <./sofc-funding_files/figure-latex/unnamed-chunk-7-3.pdf>]
+<sofc-funding_files/figure-latex/unnamed-chunk-7-5.pdf, id=287, 453.695pt x 315
 .1775pt>
-File: sofc-funding_files/figure-latex/unnamed-chunk-8-3.pdf Graphic file (type 
+File: sofc-funding_files/figure-latex/unnamed-chunk-7-5.pdf Graphic file (type 
 pdf)
-<use sofc-funding_files/figure-latex/unnamed-chunk-8-3.pdf>
-Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-8-3.pdf 
- used on input line 470.
+<use sofc-funding_files/figure-latex/unnamed-chunk-7-5.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-7-5.pdf 
+ used on input line 451.
 (pdftex.def)             Requested size: 453.6939pt x 315.17673pt.
+[24 <./sofc-funding_files/figure-latex/unnamed-chunk-7-4.pdf>]
+<sofc-funding_files/figure-latex/unnamed-chunk-7-6.pdf, id=303, 459.7175pt x 31
+5.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-7-6.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-7-6.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-7-6.pdf 
+ used on input line 462.
+(pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
+
+Package xcolor Warning: Incompatible color definition on input line 464.
+
+[25 <./sofc-funding_files/figure-latex/unnamed-chunk-7-5.pdf>]
+
+Package xcolor Warning: Incompatible color definition on input line 470.
+
+
+Package xcolor Warning: Incompatible color definition on input line 470.
+
 
 Package xcolor Warning: Incompatible color definition on input line 472.
 
-[24 <./sofc-funding_files/figure-latex/unnamed-chunk-8-2.pdf>]
 
-Package xcolor Warning: Incompatible color definition on input line 479.
+Package xcolor Warning: Incompatible color definition on input line 476.
 
 
-Package xcolor Warning: Incompatible color definition on input line 479.
+Package xcolor Warning: Incompatible color definition on input line 476.
 
-<sofc-funding_files/figure-latex/unnamed-chunk-8-4.pdf, id=303, 459.7175pt x 31
+<sofc-funding_files/figure-latex/unnamed-chunk-9-1.pdf, id=317, 459.7175pt x 31
 5.1775pt>
-File: sofc-funding_files/figure-latex/unnamed-chunk-8-4.pdf Graphic file (type 
+File: sofc-funding_files/figure-latex/unnamed-chunk-9-1.pdf Graphic file (type 
 pdf)
-<use sofc-funding_files/figure-latex/unnamed-chunk-8-4.pdf>
-Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-8-4.pdf 
- used on input line 485.
+<use sofc-funding_files/figure-latex/unnamed-chunk-9-1.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-9-1.pdf 
+ used on input line 482.
+(pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
+[26 <./sofc-funding_files/figure-latex/unnamed-chunk-7-6.pdf>]
+<sofc-funding_files/figure-latex/unnamed-chunk-9-2.pdf, id=329, 459.7175pt x 31
+5.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-9-2.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-9-2.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-9-2.pdf 
+ used on input line 489.
+(pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
+[27 <./sofc-funding_files/figure-latex/unnamed-chunk-9-1.pdf>]
+<sofc-funding_files/figure-latex/unnamed-chunk-9-3.pdf, id=341, 459.7175pt x 31
+5.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-9-3.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-9-3.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-9-3.pdf 
+ used on input line 496.
+(pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
+[28 <./sofc-funding_files/figure-latex/unnamed-chunk-9-2.pdf>]
+<sofc-funding_files/figure-latex/unnamed-chunk-9-4.pdf, id=353, 459.7175pt x 31
+5.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-9-4.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-9-4.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-9-4.pdf 
+ used on input line 503.
+(pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
+[29 <./sofc-funding_files/figure-latex/unnamed-chunk-9-3.pdf>]
+<sofc-funding_files/figure-latex/unnamed-chunk-9-5.pdf, id=365, 453.695pt x 315
+.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-9-5.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-9-5.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-9-5.pdf 
+ used on input line 514.
+(pdftex.def)             Requested size: 453.6939pt x 315.17673pt.
+[30 <./sofc-funding_files/figure-latex/unnamed-chunk-9-4.pdf>]
+<sofc-funding_files/figure-latex/unnamed-chunk-9-6.pdf, id=381, 459.7175pt x 31
+5.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-9-6.pdf Graphic file (type 
+pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-9-6.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-9-6.pdf 
+ used on input line 525.
 (pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
 
-Package xcolor Warning: Incompatible color definition on input line 487.
+Package xcolor Warning: Incompatible color definition on input line 527.
 
-[25 <./sofc-funding_files/figure-latex/unnamed-chunk-8-3.pdf>]
+[31 <./sofc-funding_files/figure-latex/unnamed-chunk-9-5.pdf>]
 
-Package xcolor Warning: Incompatible color definition on input line 493.
-
-
-Package xcolor Warning: Incompatible color definition on input line 493.
+Package xcolor Warning: Incompatible color definition on input line 536.
 
 
-Package xcolor Warning: Incompatible color definition on input line 509.
+Package xcolor Warning: Incompatible color definition on input line 536.
+
+<sofc-funding_files/figure-latex/unnamed-chunk-10-1.pdf, id=394, 459.7175pt x 3
+15.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-10-1.pdf Graphic file (type
+ pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-10-1.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-10-1.pdf
+  used on input line 538.
+(pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
+
+Package xcolor Warning: Incompatible color definition on input line 540.
+
+[32 <./sofc-funding_files/figure-latex/unnamed-chunk-9-6.pdf>]
+
+Package xcolor Warning: Incompatible color definition on input line 549.
 
 
-Package xcolor Warning: Incompatible color definition on input line 514.
+Package xcolor Warning: Incompatible color definition on input line 549.
+
+<sofc-funding_files/figure-latex/unnamed-chunk-10-2.pdf, id=406, 463.7325pt x 3
+15.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-10-2.pdf Graphic file (type
+ pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-10-2.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-10-2.pdf
+  used on input line 551.
+(pdftex.def)             Requested size: 463.73842pt x 315.18153pt.
+
+Package xcolor Warning: Incompatible color definition on input line 553.
+
+[33 <./sofc-funding_files/figure-latex/unnamed-chunk-10-1.pdf>]
+
+Package xcolor Warning: Incompatible color definition on input line 559.
 
 
-Package xcolor Warning: Incompatible color definition on input line 514.
+Package xcolor Warning: Incompatible color definition on input line 559.
 
-[26 <./sofc-funding_files/figure-latex/unnamed-chunk-8-4.pdf>]
+<sofc-funding_files/figure-latex/unnamed-chunk-11-1.pdf, id=418, 464.73625pt x 
+315.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-11-1.pdf Graphic file (type
+ pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-11-1.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-11-1.pdf
+  used on input line 561.
+(pdftex.def)             Requested size: 464.74928pt x 315.18634pt.
 
-Package xcolor Warning: Incompatible color definition on input line 528.
+Package xcolor Warning: Incompatible color definition on input line 563.
 
-
-Package xcolor Warning: Incompatible color definition on input line 534.
-
-
-Package xcolor Warning: Incompatible color definition on input line 534.
-
-
-Package xcolor Warning: Incompatible color definition on input line 550.
-
-
-Package xcolor Warning: Incompatible color definition on input line 555.
-
-
-Package xcolor Warning: Incompatible color definition on input line 555.
-
+[34 <./sofc-funding_files/figure-latex/unnamed-chunk-10-2.pdf>]
 
 Package xcolor Warning: Incompatible color definition on input line 569.
 
 
-Package xcolor Warning: Incompatible color definition on input line 574.
+Package xcolor Warning: Incompatible color definition on input line 569.
+
+<sofc-funding_files/figure-latex/unnamed-chunk-11-2.pdf, id=430, 464.73625pt x 
+315.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-11-2.pdf Graphic file (type
+ pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-11-2.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-11-2.pdf
+  used on input line 571.
+(pdftex.def)             Requested size: 464.74928pt x 315.18634pt.
+
+Package xcolor Warning: Incompatible color definition on input line 573.
+
+[35 <./sofc-funding_files/figure-latex/unnamed-chunk-11-1.pdf>]
+
+Package xcolor Warning: Incompatible color definition on input line 581.
 
 
-Package xcolor Warning: Incompatible color definition on input line 574.
+Package xcolor Warning: Incompatible color definition on input line 581.
+
+<sofc-funding_files/figure-latex/unnamed-chunk-11-3.pdf, id=442, 453.695pt x 31
+5.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-11-3.pdf Graphic file (type
+ pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-11-3.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-11-3.pdf
+  used on input line 587.
+(pdftex.def)             Requested size: 453.6939pt x 315.17673pt.
+
+Package xcolor Warning: Incompatible color definition on input line 589.
+
+[36 <./sofc-funding_files/figure-latex/unnamed-chunk-11-2.pdf>]
+
+Package xcolor Warning: Incompatible color definition on input line 596.
 
 
-Package xcolor Warning: Incompatible color definition on input line 588.
+Package xcolor Warning: Incompatible color definition on input line 596.
 
+<sofc-funding_files/figure-latex/unnamed-chunk-11-4.pdf, id=459, 459.7175pt x 3
+15.1775pt>
+File: sofc-funding_files/figure-latex/unnamed-chunk-11-4.pdf Graphic file (type
+ pdf)
+<use sofc-funding_files/figure-latex/unnamed-chunk-11-4.pdf>
+Package pdftex.def Info: sofc-funding_files/figure-latex/unnamed-chunk-11-4.pdf
+  used on input line 602.
+(pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
 
-Package xcolor Warning: Incompatible color definition on input line 594.
+Package xcolor Warning: Incompatible color definition on input line 604.
 
-
-Package xcolor Warning: Incompatible color definition on input line 594.
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 596.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 596.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 596.
-
-Package xcolor Warning: Incompatible color definition on input line 606.
-
-[27]
+[37 <./sofc-funding_files/figure-latex/unnamed-chunk-11-3.pdf>]
 
 Package xcolor Warning: Incompatible color definition on input line 610.
 
@@ -1076,78 +1158,314 @@ Package xcolor Warning: Incompatible color definition on input line 610.
 Package xcolor Warning: Incompatible color definition on input line 610.
 
 
-Package xcolor Warning: Incompatible color definition on input line 622.
+Package xcolor Warning: Incompatible color definition on input line 626.
 
 
-Package xcolor Warning: Incompatible color definition on input line 627.
+Package xcolor Warning: Incompatible color definition on input line 631.
 
 
-Package xcolor Warning: Incompatible color definition on input line 627.
+Package xcolor Warning: Incompatible color definition on input line 631.
 
-
-Package xcolor Warning: Incompatible color definition on input line 639.
-
+[38 <./sofc-funding_files/figure-latex/unnamed-chunk-11-4.pdf>]
 
 Package xcolor Warning: Incompatible color definition on input line 645.
 
 
-Package xcolor Warning: Incompatible color definition on input line 645.
+Package xcolor Warning: Incompatible color definition on input line 651.
 
 
-Package xcolor Warning: Incompatible color definition on input line 657.
+Package xcolor Warning: Incompatible color definition on input line 651.
 
 
-Package xcolor Warning: Incompatible color definition on input line 661.
+Package xcolor Warning: Incompatible color definition on input line 667.
 
 
-Package xcolor Warning: Incompatible color definition on input line 661.
+Package xcolor Warning: Incompatible color definition on input line 672.
 
 
-Package xcolor Warning: Incompatible color definition on input line 673.
+Package xcolor Warning: Incompatible color definition on input line 672.
 
 
-Package xcolor Warning: Incompatible color definition on input line 678.
+Package xcolor Warning: Incompatible color definition on input line 686.
 
 
-Package xcolor Warning: Incompatible color definition on input line 678.
+Package xcolor Warning: Incompatible color definition on input line 691.
 
 
-Package xcolor Warning: Incompatible color definition on input line 690.
+Package xcolor Warning: Incompatible color definition on input line 691.
 
 
-Package xcolor Warning: Incompatible color definition on input line 696.
+Package xcolor Warning: Incompatible color definition on input line 705.
 
 
-Package xcolor Warning: Incompatible color definition on input line 696.
+Package xcolor Warning: Incompatible color definition on input line 711.
 
 
-Package xcolor Warning: Incompatible color definition on input line 708.
+Package xcolor Warning: Incompatible color definition on input line 711.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 713.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 713.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 713.
+
+Package xcolor Warning: Incompatible color definition on input line 723.
+
+[39]
+
+Package xcolor Warning: Incompatible color definition on input line 727.
 
 
-Package xcolor Warning: Incompatible color definition on input line 712.
+Package xcolor Warning: Incompatible color definition on input line 727.
 
 
-Package xcolor Warning: Incompatible color definition on input line 712.
+Package xcolor Warning: Incompatible color definition on input line 739.
 
 
-Package xcolor Warning: Incompatible color definition on input line 724.
-
-[28]
-
-Package xcolor Warning: Incompatible color definition on input line 729.
+Package xcolor Warning: Incompatible color definition on input line 744.
 
 
-Package xcolor Warning: Incompatible color definition on input line 729.
+Package xcolor Warning: Incompatible color definition on input line 744.
 
-[29] (./sofc-funding.aux)
+
+Package xcolor Warning: Incompatible color definition on input line 768.
+
+
+Package xcolor Warning: Incompatible color definition on input line 772.
+
+
+Package xcolor Warning: Incompatible color definition on input line 772.
+
+
+Package xcolor Warning: Incompatible color definition on input line 784.
+
+
+Package xcolor Warning: Incompatible color definition on input line 790.
+
+
+Package xcolor Warning: Incompatible color definition on input line 790.
+
+
+Package xcolor Warning: Incompatible color definition on input line 802.
+
+
+Package xcolor Warning: Incompatible color definition on input line 806.
+
+
+Package xcolor Warning: Incompatible color definition on input line 806.
+
+
+Package xcolor Warning: Incompatible color definition on input line 818.
+
+
+Package xcolor Warning: Incompatible color definition on input line 823.
+
+
+Package xcolor Warning: Incompatible color definition on input line 823.
+
+
+Package xcolor Warning: Incompatible color definition on input line 845.
+
+[40]
+
+Package xcolor Warning: Incompatible color definition on input line 849.
+
+
+Package xcolor Warning: Incompatible color definition on input line 849.
+
+
+Package xcolor Warning: Incompatible color definition on input line 861.
+
+
+Package xcolor Warning: Incompatible color definition on input line 870.
+
+
+Package xcolor Warning: Incompatible color definition on input line 870.
+
+
+Package xcolor Warning: Incompatible color definition on input line 882.
+
+
+Package xcolor Warning: Incompatible color definition on input line 886.
+
+
+Package xcolor Warning: Incompatible color definition on input line 886.
+
+
+Package xcolor Warning: Incompatible color definition on input line 898.
+
+
+Package xcolor Warning: Incompatible color definition on input line 903.
+
+
+Package xcolor Warning: Incompatible color definition on input line 903.
+
+
+Package xcolor Warning: Incompatible color definition on input line 923.
+
+
+Package xcolor Warning: Incompatible color definition on input line 927.
+
+
+Package xcolor Warning: Incompatible color definition on input line 927.
+
+
+Package xcolor Warning: Incompatible color definition on input line 939.
+
+
+Package xcolor Warning: Incompatible color definition on input line 948.
+
+
+Package xcolor Warning: Incompatible color definition on input line 948.
+
+
+Package xcolor Warning: Incompatible color definition on input line 960.
+
+[41]
+
+Package xcolor Warning: Incompatible color definition on input line 964.
+
+
+Package xcolor Warning: Incompatible color definition on input line 964.
+
+
+Package xcolor Warning: Incompatible color definition on input line 976.
+
+
+Package xcolor Warning: Incompatible color definition on input line 981.
+
+
+Package xcolor Warning: Incompatible color definition on input line 981.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1001.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1005.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1005.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1017.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1023.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1023.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1035.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1039.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1039.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1051.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1056.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1056.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1072.
+
+[42]
+
+Package xcolor Warning: Incompatible color definition on input line 1076.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1076.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1088.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1094.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1094.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1106.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1110.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1110.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1122.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1127.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1127.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1147.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1151.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1151.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1163.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1169.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1169.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1181.
+
+[43]
+
+Package xcolor Warning: Incompatible color definition on input line 1185.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1185.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1197.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1202.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1202.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1222.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1226.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1226.
+
+[44] (./sofc-funding.aux)
 Package rerunfilecheck Info: File `sofc-funding.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12542 strings out of 481330
- 187193 string characters out of 5916476
- 489816 words of memory out of 5000000
- 29101 multiletter control sequences out of 15000+600000
+ 12629 strings out of 481330
+ 191282 string characters out of 5916476
+ 494816 words of memory out of 5000000
+ 29161 multiletter control sequences out of 15000+600000
  437787 words of font info for 65 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  66i,7n,72p,506b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1159,10 +1477,10 @@ fb></Users/lillianclark/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtk10
 .pfb></Users/lillianclark/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt
 10.pfb></Users/lillianclark/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lm
 tti10.pfb>
-Output written on sofc-funding.pdf (29 pages, 323605 bytes).
+Output written on sofc-funding.pdf (44 pages, 408595 bytes).
 PDF statistics:
- 370 PDF objects out of 1000 (max. 8388607)
- 258 compressed objects within 3 object streams
- 30 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 545 PDF objects out of 1000 (max. 8388607)
+ 381 compressed objects within 4 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 

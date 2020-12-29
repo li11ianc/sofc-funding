@@ -44,7 +44,7 @@ label_bipoc <- function(x) {
                  "United in Praise",
                  "Zeta Phi Beta Sorority, Inc.",
                  "Duke Nepali Student Association",
-                 "Duke Ethiopian/Eritrean Student Transactional Association",
+                 "Duke Ethiopian/Eritrean Student Transnational Association",
                  "Desarrolla",
                  "Sabrosura", #preetha added
                  "Gente Aprendiendo para Nuevas Oportunidades",
@@ -106,7 +106,7 @@ label_bipoc <- function(x) {
                  "Nakisai African Dance Ensemble",
                  "National Society of Black Engineers",
                  "United in Praise",
-                 "Zeta Phi Beta Sorority Inc.",
+                 "Zeta Phi Beta Sorority, Inc.",
                  "Duke Ethiopian/Eritrean Student Transnational Association",
                  "Duke Africa",
                  "Black Men's Union",
@@ -150,6 +150,10 @@ write_csv(budget, "data-labeled/budget.csv")
 sofc <- read.csv("data/sofctotals.csv")
 sofc <- label_bipoc(sofc)
 write_csv(sofc, "data-labeled/sofc.csv")
+
+budget_source <- read.csv("data/filtered-budget-from-source.csv")
+budget_source <- label_bipoc(budget_source)
+write_csv(budget_source, "data-labeled/filtered-budget-from-source.csv")
 
 
 

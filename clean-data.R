@@ -69,7 +69,7 @@ x_new <- x %>%
       ~ "Phi Beta Sigma Fraternity, Inc.",
     org %in% c("Muslim Students' Association, Muslim Students Association", "Duke MSA") 
       ~ "Duke Muslim Students Association",
-    org %in% c("La Unidad Latina, Lambda Upsilon Lambda Fraternity, Inc.", "La Unidad Latina", "La Unidad Latina, Lambda Upsilon Lambda Fraternity, Inc.") 
+    org %in% c("La Unidad Latina, Lambda Upsilon Lambda Fraternity, Inc.", "La Unidad Latina", "La Unidad Latina, Lambda Upsilon Lambda Fraternity, Inc.", "La Unidad Latina Lambda Upsilon Lambda Fraternity, Inc. ") 
       ~ "La Unidad Latina Lambda Upsilon Lambda Fraternity, Inc.",
     org %in% c("International Association (IA)", "International Association ") 
       ~ "International Association",
@@ -77,6 +77,8 @@ x_new <- x %>%
       ~ "Alpha Kappa Alpha Sorority, Inc.",
     org %in% c("Amandala") 
       ~ "Duke Amandla Chorus",
+    org %in% c("Duke Hindu Students Association (HSA)")
+      ~ "Hindu Students Association",
     org %in% c("BDU") 
       ~ "Blue Devils United",
     org == "Catholic Center" 
@@ -93,7 +95,7 @@ x_new <- x %>%
       ~ "	Alpha Kappa Delta Phi",
     org == "CommuniTEA"
       ~ "Duke CommuniTEA",
-    org %in% c("Lambda Theta Alpha", "Lambda Theta Alpha Latin Sorority Inc.")
+    org %in% c("Lambda Theta Alpha", "Lambda Theta Alpha Latin Sorority Inc.", "Lambda Theta Alpha Latin Sorority, Inc. ")
       ~ "Lambda Theta Alpha Latin Sorority, Inc.",
     org == "Kappa Alpha Psi" 
       ~ "Kappa Alpha Psi Fraternity, Inc.",
@@ -106,8 +108,12 @@ x_new <- x %>%
       ~ "Duke Ethiopian/Eritrean Student Transnational Association",
     org %in% c("Alpha Phi Alpha Fraternity Inc. (Kappa Omicron)")
       ~ "Alpha Phi Alpha Fraternity, Inc.",
-    org %in% c("Kappa Alpha Psi Inc")
+    org %in% c("Kappa Alpha Psi Inc", "Kappa Alpha Psi Fraternity, Incorporated")
       ~ "Kappa Alpha Psi Fraternity, Inc.",
+    org %in% c("Pakistani Students Association (PSA)")
+      ~ "Pakistani Students Association",
+    org %in% c("Zeta Phi Beta Sorority Inc. ")
+      ~ "Zeta Phi Beta Sorority, Inc.",
     TRUE ~ org
   ))
 
@@ -203,5 +209,39 @@ sofc <- fix_orgnames(sofc)
 
 write.csv(sofc, "data/sofctotals.csv")
 
+budget_source <- read.csv("data/Master Budgets from Source.csv")
 
+budget_source <- budget_source %>%
+  janitor::clean_names() %>%
+  filter(group != "", group != "TOTAL") %>%
+  rename(org = group, req = originally_requested, grant = allocated, req_filt = updated_requested)
+
+budget_source <- budget_source %>%
+  mutate(
+    req = str_remove(req, "\\$"),
+    req = str_remove(req, ","),
+    req = as.numeric(req),
+    req_filt = str_remove(req_filt, "\\$"),
+    req_filt = str_remove(req_filt, ","),
+    req_filt = as.numeric(req_filt),
+    grant = str_remove(grant, "\\$"),
+    grant = str_remove(grant, ","),
+    grant = case_when(
+      grant == " -   " ~ "0", # or should be as.character(NA)?
+      TRUE ~ grant),
+    grant = as.numeric(grant),
+    schoolyr = "2020-2021",
+    deny = req - grant,
+    prop_grant = grant / req,
+    deny_filt = req_filt - grant,
+    prop_grant_filt = grant / req_filt,
+    update = req_filt - req,
+    filt = case_when(
+      update != 0 ~ "Y",
+      TRUE ~ "N")
+    )
+
+budget_source_fix <- fix_orgnames(budget_source)
+
+write.csv(budget_source_fix, "data/filtered-budget-from-source.csv")
 

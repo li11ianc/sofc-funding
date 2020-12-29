@@ -21,10 +21,9 @@ budget <- read.csv("data-labeled/budget.csv")
 budget <- budget[-1]
 sofc <- read.csv("data-labeled/sofc.csv")
 sofc <- sofc[-1]
+budget_unfilt <- read.csv("data-labeled/filtered-budget-from-source.csv")
+budget_unfilt <- budget_unfilt[-1]
 ```
-
-What to do with these groups? >>
-Center for Race Relations
 
 ```{r}
 make_plots <- function(df) {
@@ -80,6 +79,19 @@ make_plots(budget)
 make_plots(sofc)
 ```
 
+```{r}
+make_plots(budget_unfilt)
+```
+
+```{r}
+budget_filt <- budget_unfilt %>%
+  select(-req, -prop_grant) %>%
+  rename(req = req_filt, prop_grant = prop_grant_filt)
+```
+
+```{r}
+make_plots(budget_filt)
+```
 
 ```{r}
   prog %>%
@@ -146,17 +158,49 @@ kbl(tidy(aov(model_bipoc)),digits=3)
 
 
 model_comm <- lm(prop_grant ~ community,data=prog)
+kbl(model_comm %>% tidy(conf.int=TRUE),digits=3)
 kbl(tidy(aov(model_comm)),digits=3)
 ```
 
 ```{r}
-# ANOVA for budget funds
+# ANOVA for budget funds 2019-2021
 model_bipoc <- lm(prop_grant ~ bipoc, data = budget)
 kbl(model_bipoc %>% tidy(conf.int=TRUE),digits=3)
 kbl(tidy(aov(model_bipoc)),digits=3)
 
 
 model_comm <- lm(prop_grant ~ community,data=budget)
+kbl(model_comm %>% tidy(conf.int=TRUE),digits=3)
+kbl(tidy(aov(model_comm)),digits=3)
+```
+
+```{r}
+# ANOVA for budget funds 2020-2021
+budget2021 <- budget %>%
+  filter(schoolyr == "2020-2021")
+
+model_bipoc <- lm(prop_grant ~ bipoc, data = budget2021)
+kbl(model_bipoc %>% tidy(conf.int=TRUE),digits=3)
+kbl(tidy(aov(model_bipoc)),digits=3)
+
+
+model_comm <- lm(prop_grant ~ community,data=budget2021)
+kbl(model_comm %>% tidy(conf.int=TRUE),digits=3)
+kbl(tidy(aov(model_comm)),digits=3)
+```
+
+```{r}
+# ANOVA for budget funds 2019-2020
+budget2021 <- budget %>%
+  filter(schoolyr == "2019-2020")
+
+model_bipoc <- lm(prop_grant ~ bipoc, data = budget2021)
+kbl(model_bipoc %>% tidy(conf.int=TRUE),digits=3)
+kbl(tidy(aov(model_bipoc)),digits=3)
+
+
+model_comm <- lm(prop_grant ~ community,data=budget2021)
+kbl(model_comm %>% tidy(conf.int=TRUE),digits=3)
 kbl(tidy(aov(model_comm)),digits=3)
 ```
 
@@ -168,7 +212,34 @@ kbl(tidy(aov(model_bipoc)),digits=3)
 
 
 model_comm <- lm(prop_grant ~ community,data=sofc)
+kbl(model_comm %>% tidy(conf.int=TRUE),digits=3)
 kbl(tidy(aov(model_comm)),digits=3)
 ```
+
+```{r}
+# ANOVA for budget funds from source unfiltered
+model_bipoc <- lm(prop_grant ~ bipoc, data = budget_unfilt)
+kbl(model_bipoc %>% tidy(conf.int=TRUE),digits=3)
+kbl(tidy(aov(model_bipoc)),digits=3)
+
+
+model_comm <- lm(prop_grant ~ community,data = budget_unfilt)
+kbl(model_comm %>% tidy(conf.int=TRUE),digits=3)
+kbl(tidy(aov(model_comm)),digits=3)
+```
+
+```{r}
+# ANOVA for budget funds from source filtered
+model_bipoc <- lm(prop_grant ~ bipoc, data = budget_filt)
+kbl(model_bipoc %>% tidy(conf.int=TRUE),digits=3)
+kbl(tidy(aov(model_bipoc)),digits=3)
+
+
+model_comm <- lm(prop_grant ~ community,data=budget_filt)
+kbl(model_comm %>% tidy(conf.int=TRUE),digits=3)
+kbl(tidy(aov(model_comm)),digits=3)
+```
+
+
 
 

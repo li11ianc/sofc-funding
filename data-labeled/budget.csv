@@ -53,7 +53,7 @@ X,org,req,grant,schoolyr,deny,prop_grant,bipoc,community
 52,Duke Chapter of the American Mock World Health Organization,3305,1665,2019-2020,1640,0.503782148260212,N,Non-BIPOC
 53,Duke Student Government,2130,1590,2019-2020,540,0.746478873239437,N,Non-BIPOC
 54,Mi Gente,5369,1580,2019-2020,3789,0.294281989197243,Y,Latinx
-55,"Zeta Phi Beta Sorority, Inc.",2405.46,1535.15,2019-2020,870.31,0.638193942115022,Y,Non-BIPOC
+55,"Zeta Phi Beta Sorority, Inc.",2405.46,1535.15,2019-2020,870.31,0.638193942115022,Y,Black
 56,Asian Students Association,5140.2,1515,2019-2020,3625.2,0.294735613400257,Y,Asian
 57,"Lambda Theta Alpha Latin Sorority, Inc.",2108.95,1514,2019-2020,594.95,0.717892790251073,Y,Latinx
 58,Presbyterian Campus Ministry,3550,1500,2019-2020,2050,0.422535211267606,N,Non-BIPOC
@@ -117,7 +117,7 @@ X,org,req,grant,schoolyr,deny,prop_grant,bipoc,community
 116,Duke Platform Tennis Association,375,375,2019-2020,0,1,N,Non-BIPOC
 117,Pakistani Students Association,650,375,2019-2020,275,0.576923076923077,Y,Asian
 118,Peer Advocacy for Sexual Health,1460,360,2019-2020,1100,0.246575342465753,N,Non-BIPOC
-119,Duke Ethiopian/Eritrean Student Transnational Association,900,310,2019-2020,590,0.344444444444444,N,Black
+119,Duke Ethiopian/Eritrean Student Transnational Association,900,310,2019-2020,590,0.344444444444444,Y,Black
 120,Student Organization Finance Committee,480,300,2019-2020,180,0.625,N,Non-BIPOC
 121,WISER Duke,1000,300,2019-2020,700,0.3,N,Non-BIPOC
 122,Desarrolla,600,295,2019-2020,305,0.491666666666667,Y,Latinx
@@ -192,7 +192,7 @@ X,org,req,grant,schoolyr,deny,prop_grant,bipoc,community
 191,Duke Disability Alliance,7650,3000,2020-2021,4650,0.392156862745098,N,Non-BIPOC
 192,Duke Diya,900,500,2020-2021,400,0.555555555555556,Y,Asian
 193,Duke Energy Club,9180,1500,2020-2021,7680,0.163398692810458,N,Non-BIPOC
-194,Duke Ethiopian/Eritrean Student Transnational Association,345,195,2020-2021,150,0.565217391304348,N,Black
+194,Duke Ethiopian/Eritrean Student Transnational Association,345,195,2020-2021,150,0.565217391304348,Y,Black
 195,Duke Fashion Exchange,280,230,2020-2021,50,0.821428571428571,N,Non-BIPOC
 196,Duke German Club,900,450,2020-2021,450,0.5,N,Non-BIPOC
 197,Duke Global Public Health Brigades,17850,6500,2020-2021,11350,0.36414565826330503,N,Non-BIPOC
@@ -276,4 +276,4 @@ X,org,req,grant,schoolyr,deny,prop_grant,bipoc,community
 275,The Standard,994,0,2020-2021,994,0,N,Non-BIPOC
 276,United in Praise,4600,100,2020-2021,4500,0.0217391304347826,Y,Black
 277,WISER Duke,600,400,2020-2021,200,0.666666666666667,N,Non-BIPOC
-278,"Zeta Phi Beta Sorority, Inc.",9872,2700,2020-2021,7172,0.273500810372771,Y,Non-BIPOC
+278,"Zeta Phi Beta Sorority, Inc.",9872,2700,2020-2021,7172,0.273500810372771,Y,Black
