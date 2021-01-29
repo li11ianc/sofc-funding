@@ -155,5 +155,8 @@ budget_source <- read.csv("data/filtered-budget-from-source.csv")
 budget_source <- label_bipoc(budget_source)
 write_csv(budget_source, "data-labeled/filtered-budget-from-source.csv")
 
+budg_adj <- read.csv("line-item-data/budg_adj.csv")
+budg_adj <- label_bipoc(budg_adj)
+write_csv(budg_adj, "data-labeled/filtered-budget-chron.csv")
 
 

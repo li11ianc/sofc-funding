@@ -245,3 +245,44 @@ budget_source_fix <- fix_orgnames(budget_source)
 
 write.csv(budget_source_fix, "data/filtered-budget-from-source.csv")
 
+a_d <- read_csv("line-item-data/Evelyn - Adjusted Budget Items 2020-2021 (A-D) - Sheet1.csv")
+d_e <- read_csv("line-item-data/Natalie - Adjusted Budget Items 2020-2021 (D-E) - Sheet1.csv")
+e_n <- read_csv("line-item-data/Shari - Adjusted Budget Items 2020-2021 (E-N) - Sheet1.csv")
+n_z <- read_csv("line-item-data/Lilly - Adjusted Budget Items 2020-2021 (N-Z) - Sheet1.csv")
+
+files <- c(a_d, d_e, e_n, n_z)
+
+##for (i in files) {
+##  i <- i[-1] %>%
+
+a_d <- a_d[-1,] %>%
+    mutate(req = as.numeric(req),
+           grant = as.numeric(grant),
+           req_filt = as.numeric(req_filt),
+           total_removed = as.numeric(total_removed))
+d_e <- d_e[-1,] %>%
+  mutate(req = as.numeric(req),
+         grant = as.numeric(grant),
+         req_filt = as.numeric(req_filt),
+         total_removed = as.numeric(total_removed))
+e_n <- e_n[-1,] %>%
+  mutate(req = as.numeric(req),
+         grant = as.numeric(grant),
+         req_filt = as.numeric(req_filt),
+         total_removed = as.numeric(total_removed))
+n_z <- n_z[-1,] %>%
+  mutate(req = as.numeric(req),
+         grant = as.numeric(grant),
+         req_filt = as.numeric(req_filt),
+         total_removed = as.numeric(total_removed))
+
+budg_adj <- bind_rows(a_d, d_e, e_n, n_z)
+
+budg_adj <- budg_adj %>%
+  mutate(deny = req - grant,
+         prop_grant = grant / req,
+         prop_grant_filt = grant / req_filt)
+
+budg_adj <- fix_orgnames(budg_adj)
+
+write_csv(budg_adj, "line-item-data/budg_adj.csv")

@@ -23,6 +23,7 @@ sofc <- read.csv("data-labeled/sofc.csv")
 sofc <- sofc[-1]
 budget_unfilt <- read.csv("data-labeled/filtered-budget-from-source.csv")
 budget_unfilt <- budget_unfilt[-1]
+budg_adj <- read.csv("data-labeled/filtered-budget-chron.csv")
 ```
 
 ```{r}
@@ -240,6 +241,18 @@ kbl(model_comm %>% tidy(conf.int=TRUE),digits=3)
 kbl(tidy(aov(model_comm)),digits=3)
 ```
 
+
+```{r}
+# ANOVA for budget funds from chron team filtered
+model_bipoc <- lm(prop_grant ~ bipoc, data = budg_adj)
+kbl(model_bipoc %>% tidy(conf.int=TRUE),digits=3)
+kbl(tidy(aov(model_bipoc)),digits=3)
+
+
+model_comm <- lm(prop_grant ~ community,data=budg_adj)
+kbl(model_comm %>% tidy(conf.int=TRUE),digits=3)
+kbl(tidy(aov(model_comm)),digits=3)
+```
 
 
 

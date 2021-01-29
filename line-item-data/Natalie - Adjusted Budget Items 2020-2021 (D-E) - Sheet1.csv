@@ -1,0 +1,28 @@
+org,req,grant,removed_items,total_removed,req_filt,FLAGGED NOTES
+"Type the name of the organization here! If the org is on this list, use the spelling and formatting from this sheet! If not, capitalize and expand any acronyms. Frats and sororities should be formatted like this ""Alpha Kappa Alpha Sorority, Inc."" Please be careful not to add an extra space at the end of the cell!!","Total amount requested, no commas or dollar signs, i.e. 3456.00 NOT $3,456.00","Total amount funded by SOFC, no commas or dollar signs, i.e. 3456.00 NOT $3,456.00","Notes on what you removed/why/what amounts, examples below: (don't reference these as rules, look at the rule sheet for that -- these are simply formatting guides. Capitalization etc doesn't matter here, only the information)","Total cost of all removed items, usual rules for dollar amount formatting (no commas or $)","Update the amount requested by subtracting the removed items, same dollar formatting rules",Notes on anything you are unsure about!
+Duke Disability Alliance,7650.00,3000.00,"SOFC doesn't fund t-shirts, minus 600",600.00,7050.00,SOFC doesn't fund decorations but they gave money for them to decorate their new space at the Bryan Center so I didn't subtract it 
+Define American,1000.00,800.00,,0.00,1000.00,
+Deja Blue,2250.00,1150.00,"SOFC doesn't fund t-shirts, minus 500.00",500.00,1750.00,
+"Delta Sigma Theta, Inc.",6100.00,1800.00,"""travel to Natianal convention"" wrong request: flights are $200/person, not $400, subtract $400. ""Hotel stay for national convention"" wrong request: hotels are funded at $125/person, not $250. subtract $250. ""hotel stay for regional conference"" wrong request: hotels are $125/person, not $150, subtract $50.",700.00,5400.00,
+Desarrolla,2884.00,450.00,"""Exec retreat"" retreats are $20/person, not $90, subtract $700.00",700.00,2084.00,
+Duke Ethiopian/Eritrean Student Transnational Association,345.00,195.00,"""GBM"" duke doesn't fund general body meetings, subtract $150",150.00,195.00,
+Duke's Devilish Keys,1498.00,1348.00,,0.00,1498.00,
+Devils En Pointe,6182.00,2715.00,"""Storage Unit for Costumes"" -- SOFC doesn't fund long term, non disposable capital expenditures ",,,
+Duke Dhamaka,35059.00,8575.00,"""Hotel""-- hotels are 125/person, not $200, subtract $5625.00. ",5625.00,29434.00,
+DHRC,1040.00,390.00,,0.00,1040.00,SOFC Doesn't fund GBMs but they did fund part of this one so I didn't subtract it... not sure if that was right though? 
+International Association,700.00,400.00,,0.00,700.00,
+Duke Diya,900.00,500.00,"""Exec Retreat""-- retreats are funded at $20/person, not $55.56, subtract $320. ",320.00,580.00,
+Duke Partnership for Service,14560.00,2880.00,,0.00,14560.00,
+Duke Student Government,36700.00,33125.00,,0.00,36700.00,
+Duke Symphony Orchestra,4825.00,2800.00,"""Sticker Mule stickers"" --  SOFC doesn't fund stickers, subtract $150.00",150.00,4675.00,
+duARTS,13650.00,2900.00,"""Merchandise""-- SOFC doesn't fund merch, subtract  $1500.00.  ""Food budget for GBMs""-- SOFC doesn't fund GBMs, subtract $2000.",3500.00,10150.00,
+Duke Applied Machine Learning Group,1600.00,1000.00,"""GBM food""-- SOFC doesn't fund GBMs, subtract $300. ",300.00,1300.00,
+Duke Investment Club,6462.88,3083.00,"""Spring and Fall Retreats""-- SOFC funds $20/person/retreat, subtract $100.",100.00,6342.88,
+Duke Sleight Club,684.16,665.26,,0.00,684.16,
+Duke Sports Management Club,2600.00,2075.00,,0.00,2600.00,
+Duke PAWS,3850.00,2500.00,"""Merchandise""-- SOFC doesn't fund merch, subtract $450. ",450.00,3400.00,
+EEAD,350.00,100.00,"""Food funding""-- SOFC doesn't fund meetings, subtract 250",250.00,100.00,
+Duke University Emergency Medical Services,12310.01,6393.00,"retreats are funded at $20/person, subtract 4700. ",4700.00,7610.01,
+Every Nation Campus,6600.00,2500.00,"""Annual Fall Retreat""-- SOFC funds retreats at $20/person, subtract $1000. ""End of Year Retreat""-- SOFC funds $20/person, subtract $825 ",825.00,5775.00,
+Duke Energy Club,9180.00,1500.00,,0.00,9180.00,
+Ensemble Hippocrates,1125.00,400.00,"""General Body Meeting""-- SOFC doesn't fund GBMs, subtract $200.",200.00,925.00,
